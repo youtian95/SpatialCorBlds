@@ -3,6 +3,10 @@
 ## Use
 Run Main_i_*.m in order in Matlab
 
+## Principle
+
+![Regional seismic loss assessment considering spatial correlation](https://github.com/youtian95/SpatialCorBlds/blob/master/Figures/ForReadme/RegLossSim.jpg)
+
 ##  Layout
 
  - **3rd Party**: other dependent programs

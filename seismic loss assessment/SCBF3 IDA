@@ -1,0 +1,4099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project FileVersion="2.3">
+  <ProjectID>SCBF3 IDA</ProjectID>
+  <ProjectDescription></ProjectDescription>
+  <Client></Client>
+  <Engineer></Engineer>
+  <Intensity>true</Intensity>
+  <DateMultiplier>1</DateMultiplier>
+  <RegionMultiplier>1</RegionMultiplier>
+  <EngineSeedValue>0</EngineSeedValue>
+  <Building>
+    <NumStories>3</NumStories>
+    <TypicalFloorArea>
+      <Area>
+        <Unit>Square Foot</Unit>
+        <Value>14418.9038</Value>
+      </Area>
+    </TypicalFloorArea>
+    <TypicalFloorHeight>
+      <Length>
+        <Unit>Foot</Unit>
+        <Value>12.9921</Value>
+      </Length>
+    </TypicalFloorHeight>
+    <ReplacementCost>10814000</ReplacementCost>
+    <CoreReplacementCost>4325700</CoreReplacementCost>
+    <PercentLossThreshold>1</PercentLossThreshold>
+    <ReplacementTime>600</ReplacementTime>
+    <ReplacementEnergy>0</ReplacementEnergy>
+    <ReplacementCarbon>0</ReplacementCarbon>
+    <MaxWorkersPerSF>0.001</MaxWorkersPerSF>
+    <UseResidualDrift>true</UseResidualDrift>
+    <ResidualDriftMedian>0.01</ResidualDriftMedian>
+    <ResidualDriftDisp>0.3</ResidualDriftDisp>
+    <FragilityDefaults>
+      <TypicalDefaults>
+        <Item>
+          <ID>3684d1db-7012-4c70-a5bf-158cc8f93c6c</ID>
+          <IsInherited>false</IsInherited>
+          <PercentageDir1>1</PercentageDir1>
+          <PercentageDir2>1</PercentageDir2>
+          <FragilityID>B1035.032</FragilityID>
+          <Population>None</Population>
+        </Item>
+      </TypicalDefaults>
+    </FragilityDefaults>
+    <CollapseModes>
+      <UseCollapse>true</UseCollapse>
+      <NumFloors>3</NumFloors>
+      <Beta>0.5</Beta>
+      <Median>7.23</Median>
+      <CollapseMode>
+        <NumFloors>3</NumFloors>
+        <Probability>1</Probability>
+        <FloorPercentages>1,0,0,0</FloorPercentages>
+        <FloorDeathRates>0,0,0,0</FloorDeathRates>
+        <FloorInjuryRates>0,0,0,0</FloorInjuryRates>
+        <FloorDeathRateBetas>0,0,0,0</FloorDeathRateBetas>
+        <FloorInjuryRateBetas>0,0,0,0</FloorInjuryRateBetas>
+      </CollapseMode>
+    </CollapseModes>
+    <TypicalOccupancyTemplates />
+    <Floor>
+      <FloorNum>0</FloorNum>
+      <FloorName>Floor 1</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>30.0197</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>14418.9038</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>false</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults>
+          <Item>
+            <ID>d6998259-b201-41b1-9554-e517f20f6769</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.032</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>32e0afe4-cef8-4a4d-b8f1-2ceed52a42bb</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.022</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>dba770a0-ac65-403c-81b1-882ec297bbb6</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1031.011b</FragilityID>
+            <Population>None</Population>
+          </Item>
+        </TypicalDefaults>
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates />
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>8</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1031.011b</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.19</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.42</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>8</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1031.011b</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.19</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.42</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>38.93</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>B3011.011</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>108.14</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3027.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>51.91</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3032.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>216.28</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3034.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D1014.011</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3031.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3031.021a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.08</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>0.29</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.012a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>12.98</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>7.21</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>8</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3052.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.021a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.3</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D5012.013a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D5012.021a</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+    </Floor>
+    <Floor>
+      <FloorNum>1</FloorNum>
+      <FloorName>Floor 2</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>30.0197</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>14418.9038</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>false</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults>
+          <Item>
+            <ID>5cbacfb9-2508-42dc-a9dc-b0d960e1c1ce</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.032</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>70275b7e-0755-45e1-80c1-7150197647c1</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.022</FragilityID>
+            <Population>None</Population>
+          </Item>
+        </TypicalDefaults>
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates />
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.19</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.42</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.19</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.42</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>38.93</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>B3011.011</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>108.14</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3027.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>51.91</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3032.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>216.283557</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3034.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>0.22</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D2021.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.08</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>0.29</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.012a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>12.98</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>7.21</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88378076</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88378076</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.021a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.297701342</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D5012.021a</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+    </Floor>
+    <Floor>
+      <FloorNum>2</FloorNum>
+      <FloorName>Floor 3</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>30.0197</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>14418.9038</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>false</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults>
+          <Item>
+            <ID>cbdd3353-7830-46a8-a716-951101d7959e</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.032</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>eeabb08e-e813-403a-a412-e079983cf202</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B1035.022</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>ea2d4749-1992-492e-b3fa-3a4e41e89435</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>B2022.001</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>78e80157-566e-4a6a-9564-e88897c77e25</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>0</PercentageDir1>
+            <PercentageDir2>0</PercentageDir2>
+            <FragilityID>B3011.011</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>0a9bb63a-e869-4cc4-856a-f15cb1836869</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>C1011.001a</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>28fa6a07-534d-4921-b2af-d66f497a4c87</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>1</PercentageDir1>
+            <PercentageDir2>1</PercentageDir2>
+            <FragilityID>C3011.001a</FragilityID>
+            <Population>None</Population>
+          </Item>
+          <Item>
+            <ID>bbd310ed-b4c4-444e-9c51-ac9fa2924ec0</ID>
+            <IsInherited>false</IsInherited>
+            <PercentageDir1>0</PercentageDir1>
+            <PercentageDir2>0</PercentageDir2>
+            <FragilityID>C3027.001</FragilityID>
+            <Population>None</Population>
+          </Item>
+        </TypicalDefaults>
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates />
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.189038</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.4189038</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09006912728</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.022</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>4</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1035.032</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>144.19</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B2022.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>14.4189038</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C1011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.09006912728</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>C3011.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <FragilityType>B1033.001b</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+      <Direction>
+        <PerformanceGroup>
+          <Quantity>38.93104026</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>B3011.011</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>108.1417785</Quantity>
+          <PopulationModelName>None</PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3027.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>51.90805368</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3032.001a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>216.28</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>C3034.001</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>0.216283557</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D2021.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.08</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.011a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>0.29</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.012a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>12.98</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>7.21</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D3041.041a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>2.88</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.021a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1.3</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D4011.031a</FragilityType>
+        </PerformanceGroup>
+        <PerformanceGroup>
+          <Quantity>1</Quantity>
+          <PopulationModelName></PopulationModelName>
+          <QuantityUncertainty>0</QuantityUncertainty>
+          <Correlation>0</Correlation>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <FragilityType>D5012.021a</FragilityType>
+        </PerformanceGroup>
+      </Direction>
+    </Floor>
+    <Floor>
+      <FloorNum>3</FloorNum>
+      <FloorName>Floor 2</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>14418.9038</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>true</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults />
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates />
+      <Direction />
+      <Direction />
+      <Direction />
+    </Floor>
+  </Building>
+  <AnalysisCases RunType="NonLinear">
+    <NonDirConversionFactor>1.2</NonDirConversionFactor>
+    <MinPointMAFE>0.2</MinPointMAFE>
+    <MaxPointMAFE>1.0977E-06</MaxPointMAFE>
+    <MinPointSA>0.005</MinPointSA>
+    <MaxPointSA>6</MaxPointSA>
+    <DefaultNumEqs>22</DefaultNumEqs>
+    <NumRealizations>100</NumRealizations>
+    <Analysis>
+      <AnalysisName>Intensity 1</AnalysisName>
+      <SA>0.01</SA>
+      <MAFE>0.110144</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>4.75587E-06
+4.75599E-06
+4.73249E-06
+4.86259E-06
+4.75036E-06
+4.11628E-06
+4.84508E-06
+4.79935E-06
+4.54956E-06
+4.81647E-06
+5.02121E-06
+4.87284E-06
+4.75659E-06
+4.76129E-06
+4.83566E-06
+4.67606E-06
+4.71372E-06
+4.74668E-06
+4.76524E-06
+4.75972E-06
+4.71801E-06
+4.75672E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>9.88101E-05,0.000115327,0.000119897
+5.55473E-05,7.14577E-05,8.52665E-05
+7.85876E-05,0.00010069,0.000113942
+7.07935E-05,8.39401E-05,9.45551E-05
+0.000114768,0.000134082,0.000153861
+8.41469E-05,0.000102869,0.000123096
+7.42541E-05,8.95522E-05,0.000101551
+7.82812E-05,9.19425E-05,0.000105236
+5.69889E-05,6.8606E-05,8.41783E-05
+0.000110426,0.000120392,0.000123412
+7.39456E-05,9.02024E-05,0.000101266
+6.24457E-05,7.27666E-05,8.72841E-05
+6.53014E-05,7.41223E-05,9.40377E-05
+7.29111E-05,8.46408E-05,0.000101176
+8.2468E-05,9.28657E-05,0.00010862
+7.15167E-05,7.96701E-05,9.57434E-05
+8.09963E-05,8.89612E-05,9.68834E-05
+6.66839E-05,8.59476E-05,9.89073E-05
+7.03082E-05,9.06727E-05,0.000102741
+8.65748E-05,0.000106496,0.000117884
+8.14931E-05,8.78247E-05,9.17572E-05
+0.000100561,0.00011066,0.000114965
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.0119225,0.0115268,0.0133346,0.0195409
+0.00703347,0.00648712,0.00743592,0.00863597
+0.00416987,0.00652509,0.0100783,0.0129683
+0.00891828,0.00749584,0.00801273,0.0109891
+0.00931217,0.010036,0.0142285,0.0184902
+0.0121693,0.00855632,0.00812425,0.0146656
+0.005494,0.00526874,0.00757599,0.0101554
+0.0116968,0.0102227,0.00832524,0.0186844
+0.00427431,0.0033593,0.00475617,0.00856149
+0.00671767,0.00824004,0.0111456,0.0145059
+0.0052241,0.00537841,0.00702905,0.010772
+0.00458713,0.00412629,0.00597092,0.00902491
+0.00585315,0.00491444,0.0069507,0.00951398
+0.00350637,0.00410106,0.00726719,0.0112648
+0.0131252,0.0105487,0.0114353,0.0154874
+0.00543483,0.00592802,0.00707486,0.01101
+0.00471152,0.00592818,0.00808081,0.00997244
+0.00750181,0.00655993,0.00721592,0.00915112
+0.00686306,0.00725988,0.00652655,0.00985148
+0.00830039,0.00758439,0.011408,0.0138039
+0.00792523,0.00648599,0.00834649,0.0127333
+0.00659563,0.00770101,0.00837097,0.014292
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>7.42754E-05,9.28057E-05,0.00010204
+9.71737E-05,0.000113066,0.000129283
+8.47479E-05,0.000103043,0.000115043
+9.26065E-05,0.000111628,0.000119994
+4.67983E-05,5.58518E-05,6.98179E-05
+7.84866E-05,8.91676E-05,9.96539E-05
+7.64155E-05,9.84623E-05,0.000114406
+8.21241E-05,9.43216E-05,0.000105286
+0.000115623,0.00012943,0.000138947
+6.34014E-05,8.06996E-05,9.07379E-05
+7.82628E-05,8.65687E-05,9.77883E-05
+9.40807E-05,0.000114668,0.000123815
+7.94583E-05,9.68278E-05,0.000110641
+8.06566E-05,0.000101193,0.000112924
+8.41448E-05,0.000105726,0.000120645
+8.90687E-05,9.90253E-05,0.000108621
+7.89111E-05,9.6441E-05,0.000104767
+8.0866E-05,0.00010415,0.000122219
+9.81256E-05,0.000107906,0.00011229
+7.83809E-05,8.46765E-05,9.25133E-05
+8.67734E-05,0.000105539,0.000115013
+6.56067E-05,8.60384E-05,0.000112628
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.0103399,0.0122228,0.0126558,0.0158787
+0.00619295,0.00806563,0.0110029,0.0171022
+0.00618681,0.00754231,0.0108955,0.0121735
+0.00917783,0.0102246,0.0128645,0.0144994
+0.0067901,0.00533581,0.00464269,0.00987674
+0.00733206,0.00726433,0.00833502,0.0109313
+0.00470055,0.00575008,0.00914418,0.0112087
+0.00770066,0.00723195,0.00940153,0.0109888
+0.00628287,0.0118356,0.0169923,0.0176261
+0.00416913,0.004344,0.00577916,0.00874884
+0.00574898,0.00681885,0.00864163,0.0102944
+0.00536018,0.00578408,0.00953047,0.0132621
+0.00562413,0.00554189,0.00943367,0.0120739
+0.00363642,0.00548891,0.00818728,0.0103879
+0.00838414,0.00928116,0.0108742,0.0126788
+0.00634564,0.0069431,0.0101192,0.013615
+0.0055199,0.00598627,0.00820698,0.0107034
+0.00803691,0.00712769,0.00976349,0.0134391
+0.00747982,0.00702435,0.00950526,0.0138472
+0.00801493,0.0109312,0.0121025,0.0137736
+0.00979769,0.00796504,0.0107033,0.0116487
+0.0093937,0.00906572,0.00999684,0.0137208
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 2</AnalysisName>
+      <SA>0.1</SA>
+      <MAFE>0.00624518</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>4.90869E-06
+5.03972E-06
+4.62317E-06
+5.04681E-06
+4.69471E-06
+5.17948E-06
+5.25007E-06
+5.3615E-06
+5.48954E-06
+5.22934E-06
+5.33021E-06
+5.37799E-06
+4.80481E-06
+4.74286E-06
+5.17842E-06
+5.19081E-06
+4.68843E-06
+4.83056E-06
+4.96044E-06
+4.74797E-06
+4.74837E-06
+5.09797E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.000428791,0.000509876,0.000612498
+0.000243064,0.000285145,0.000327729
+0.000297082,0.000344305,0.000357342
+0.000317132,0.000345427,0.000382029
+0.000465057,0.000487542,0.000529668
+0.000358514,0.0004509,0.000580542
+0.000288735,0.00032774,0.000364192
+0.000296452,0.000362184,0.000528302
+0.000252685,0.000270718,0.000282081
+0.00042438,0.000446707,0.000459159
+0.00035569,0.000417065,0.000463369
+0.000291716,0.000330228,0.000371741
+0.000297987,0.000343787,0.00037781
+0.000292909,0.000321769,0.000354364
+0.00040008,0.000431307,0.000453923
+0.00034368,0.000404919,0.000487197
+0.00028763,0.000318082,0.000362197
+0.000323817,0.000388225,0.00048233
+0.000269788,0.00029515,0.000325473
+0.000300278,0.000318329,0.000379277
+0.000333666,0.000375554,0.000415744
+0.000394286,0.000452061,0.000490024
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.119225,0.155695,0.193535,0.346448
+0.0703347,0.0726248,0.0725715,0.10584
+0.0416987,0.0943581,0.0897409,0.116513
+0.0891828,0.115233,0.137386,0.182398
+0.0931217,0.165611,0.193328,0.238556
+0.121693,0.191416,0.181692,0.277139
+0.05494,0.0693295,0.0693796,0.104081
+0.116968,0.204991,0.231643,0.288366
+0.0427431,0.0670142,0.0525297,0.0665834
+0.0671767,0.126683,0.170985,0.200697
+0.052241,0.103602,0.110773,0.178031
+0.0458713,0.089116,0.0706938,0.126982
+0.0585315,0.108188,0.10817,0.160872
+0.0350637,0.0746644,0.087992,0.11965
+0.131252,0.169924,0.20221,0.275812
+0.0543483,0.107566,0.128703,0.197498
+0.0471152,0.0834469,0.0957467,0.0987498
+0.0750181,0.16055,0.174337,0.284024
+0.0686306,0.0874469,0.079694,0.0935256
+0.0830039,0.138931,0.138855,0.155328
+0.0792523,0.1409,0.116066,0.145829
+0.0659563,0.1266,0.150172,0.201035
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00036104,0.000402001,0.000441173
+0.000371908,0.000440788,0.000509461
+0.000315027,0.000336022,0.000374358
+0.000339319,0.000384913,0.000450451
+0.000349803,0.000412698,0.000513473
+0.000336444,0.000405725,0.000520299
+0.000284869,0.000330042,0.00035308
+0.000376186,0.000401712,0.000409572
+0.000408146,0.000478134,0.000542479
+0.000295073,0.000339266,0.000365774
+0.000326725,0.000373722,0.000450671
+0.000342001,0.000399492,0.000417662
+0.000300576,0.000358592,0.000388454
+0.000292133,0.000335268,0.000369281
+0.000341,0.000378726,0.000398883
+0.000376363,0.000421494,0.000464147
+0.000361546,0.000427045,0.000479373
+0.00035309,0.000426373,0.00050605
+0.000355155,0.000402679,0.000463415
+0.000368971,0.000359389,0.000436789
+0.000372541,0.00043088,0.000519726
+0.000419428,0.000494447,0.000649769
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.103399,0.1341,0.145088,0.194873
+0.0619295,0.136017,0.159992,0.220769
+0.0618681,0.114808,0.10278,0.131759
+0.0917783,0.115894,0.109448,0.170123
+0.067901,0.089151,0.142073,0.239843
+0.0733206,0.123995,0.136167,0.255081
+0.0470055,0.0831056,0.0837783,0.0943436
+0.0770066,0.100566,0.129257,0.186823
+0.0628287,0.118366,0.145168,0.250647
+0.0416913,0.0840208,0.0707293,0.126101
+0.0574898,0.139388,0.150434,0.192314
+0.0536017,0.111321,0.128699,0.177894
+0.0562413,0.0835869,0.0775153,0.127041
+0.0363642,0.0736701,0.0748837,0.117452
+0.0838414,0.128312,0.108535,0.134317
+0.0634564,0.147912,0.143713,0.242325
+0.055199,0.103792,0.131418,0.18491
+0.0803691,0.127619,0.146361,0.220836
+0.0747982,0.130992,0.126771,0.164725
+0.0801493,0.201005,0.189367,0.187077
+0.0979769,0.161401,0.167706,0.292932
+0.093937,0.213291,0.251742,0.406333
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 3</AnalysisName>
+      <SA>0.2</SA>
+      <MAFE>0.00224004</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>4.99342E-06
+5.26294E-06
+4.54095E-06
+5.04814E-06
+4.6217E-06
+5.48397E-06
+5.27055E-06
+5.47288E-06
+5.67623E-06
+5.17868E-06
+5.24499E-06
+5.04647E-06
+4.78197E-06
+4.7888E-06
+5.23022E-06
+4.7948E-06
+4.66258E-06
+4.9142E-06
+5.05448E-06
+4.81071E-06
+4.89572E-06
+5.19944E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.000622893,0.000736899,0.000977717
+0.000364297,0.000441246,0.000550754
+0.000412443,0.000488611,0.000526402
+0.000547206,0.000553835,0.000641249
+0.000637867,0.000731132,0.000918804
+0.000515458,0.000629081,0.000910923
+0.000424678,0.000498653,0.000595304
+0.000499319,0.000679268,0.000978742
+0.000344262,0.000375291,0.000449142
+0.000604976,0.000672861,0.00079257
+0.000511722,0.000610213,0.000760499
+0.000414161,0.000477207,0.000630503
+0.000445626,0.000496048,0.000672561
+0.000411061,0.000449591,0.000504565
+0.00062458,0.000688253,0.000747132
+0.000469445,0.00053753,0.000734395
+0.000400859,0.000458375,0.000523755
+0.000492469,0.000602368,0.000854641
+0.000412529,0.000428435,0.000555946
+0.000422691,0.000483664,0.000603967
+0.000519483,0.000583719,0.000716811
+0.000559117,0.000603706,0.000741446
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.23845,0.371984,0.425812,0.766315
+0.14067,0.186211,0.233123,0.310094
+0.0833975,0.206239,0.221736,0.279107
+0.178366,0.248431,0.333791,0.434746
+0.186244,0.255768,0.381778,0.627381
+0.243386,0.302418,0.340291,0.672396
+0.10988,0.17419,0.184045,0.296539
+0.233937,0.335385,0.590027,0.876037
+0.0854862,0.169876,0.156332,0.186949
+0.134354,0.248916,0.36207,0.504745
+0.104482,0.204505,0.282528,0.483153
+0.0917426,0.136402,0.191482,0.33281
+0.117063,0.236713,0.267381,0.423376
+0.0701274,0.13006,0.149103,0.186281
+0.262504,0.386324,0.571083,0.740887
+0.108696,0.187442,0.299365,0.505083
+0.0942304,0.144707,0.213088,0.259285
+0.150037,0.313113,0.374507,0.662536
+0.137261,0.173644,0.251832,0.341216
+0.166008,0.249992,0.30815,0.405693
+0.158505,0.260564,0.280298,0.513894
+0.131912,0.222954,0.357809,0.399378
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.000499413,0.000561504,0.000786353
+0.000529079,0.000629437,0.000807965
+0.000431861,0.000474038,0.000602628
+0.000551643,0.000613485,0.000833546
+0.000511493,0.000593575,0.000836988
+0.000505328,0.000613753,0.000829643
+0.000400537,0.000459566,0.0005475
+0.000521947,0.000597946,0.000743339
+0.000594901,0.000685554,0.000834542
+0.000484332,0.000567172,0.000643163
+0.000478745,0.000594483,0.000817504
+0.000494686,0.000580275,0.000638754
+0.000419964,0.000505126,0.000602136
+0.000416518,0.000499998,0.000589193
+0.000545956,0.00059376,0.000638994
+0.00049263,0.000589256,0.000790042
+0.000472217,0.000562832,0.000708058
+0.000498324,0.000603482,0.000779413
+0.000487174,0.000532337,0.000668262
+0.000556368,0.000573577,0.000812588
+0.000577298,0.000672022,0.00088796
+0.000676505,0.000840256,0.00119295
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.206797,0.326159,0.392905,0.479526
+0.123859,0.248557,0.321323,0.523094
+0.123736,0.245491,0.218722,0.353339
+0.183557,0.219739,0.348957,0.524266
+0.135802,0.197089,0.34075,0.578201
+0.146641,0.21697,0.355084,0.614295
+0.094011,0.159889,0.189545,0.241207
+0.154013,0.215166,0.305047,0.441546
+0.125657,0.179621,0.360045,0.5767
+0.0833827,0.155415,0.267127,0.386886
+0.11498,0.278422,0.349308,0.543587
+0.107204,0.23797,0.304445,0.408141
+0.112482,0.164356,0.184973,0.300606
+0.0727285,0.142644,0.192432,0.304518
+0.167683,0.204063,0.250633,0.385115
+0.126912,0.266935,0.289802,0.608534
+0.110398,0.187275,0.250736,0.356266
+0.160738,0.231818,0.318445,0.504245
+0.149596,0.181523,0.256841,0.354488
+0.160299,0.378049,0.457742,0.612453
+0.195954,0.309924,0.499576,0.784115
+0.187874,0.375405,0.532591,1.07619
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 4</AnalysisName>
+      <SA>0.3</SA>
+      <MAFE>0.00117889</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.02465E-06
+5.34987E-06
+4.45693E-06
+5.12384E-06
+4.63455E-06
+5.28999E-06
+5.27478E-06
+5.45691E-06
+5.70396E-06
+5.04538E-06
+5.09937E-06
+5.22886E-06
+4.74723E-06
+4.8869E-06
+5.23054E-06
+4.46991E-06
+4.61797E-06
+4.98179E-06
+5.08282E-06
+5.00188E-06
+5.11034E-06
+5.13262E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.0008031,0.000963079,0.00135515
+0.00048978,0.000583642,0.000778218
+0.000508607,0.000609699,0.000694268
+0.000722605,0.00075146,0.000905993
+0.000789397,0.000925835,0.00124381
+0.000659204,0.000798072,0.00115011
+0.000535047,0.000620565,0.000811977
+0.000718924,0.00100864,0.00144075
+0.000413904,0.000467897,0.000613861
+0.00074693,0.000862829,0.00110686
+0.000649103,0.000761808,0.000997388
+0.000539349,0.00060508,0.000848999
+0.000560328,0.000631949,0.000908845
+0.000505453,0.000551974,0.000654136
+0.000792474,0.000887885,0.00101436
+0.000552938,0.000593371,0.000816613
+0.000504545,0.000571996,0.000682806
+0.000622492,0.000781992,0.00113185
+0.00048747,0.000516738,0.000747532
+0.000578798,0.000666337,0.000872962
+0.000671589,0.000766355,0.000981357
+0.000682576,0.000718553,0.000885978
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.357675,0.568209,0.598913,1.18769
+0.211004,0.272333,0.378688,0.557795
+0.125096,0.29324,0.369205,0.455067
+0.267548,0.390216,0.526192,0.816575
+0.279365,0.413579,0.650369,1.20293
+0.36508,0.4272,0.497297,1.04096
+0.16482,0.236422,0.324623,0.507732
+0.350905,0.54844,0.991061,1.56047
+0.128229,0.244819,0.237008,0.333376
+0.20153,0.318936,0.540871,0.915134
+0.156723,0.257309,0.438084,0.767888
+0.137614,0.200777,0.318738,0.563404
+0.175594,0.318227,0.451669,0.700979
+0.105191,0.181152,0.214536,0.343734
+0.393755,0.602272,0.874854,1.22775
+0.163045,0.238704,0.390346,0.619499
+0.141346,0.24203,0.340575,0.449581
+0.225054,0.436959,0.549074,1.01299
+0.205892,0.259426,0.451208,0.577488
+0.249011,0.356444,0.578826,0.783597
+0.237757,0.33708,0.4848,0.739779
+0.197869,0.333481,0.47378,0.597996
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00060271,0.000691632,0.00113473
+0.000647581,0.000771285,0.00105666
+0.000521133,0.000626303,0.000891263
+0.000674236,0.000736577,0.000957288
+0.000642547,0.000685759,0.0010666
+0.000640365,0.000776803,0.00113936
+0.000497699,0.000560759,0.000724134
+0.000654926,0.000726732,0.00097134
+0.000713545,0.000824774,0.00102763
+0.000599595,0.000712787,0.000873131
+0.000619271,0.000782466,0.00111419
+0.00061539,0.000713394,0.000844621
+0.000508941,0.000605352,0.000762873
+0.000517881,0.000631045,0.00076148
+0.000788189,0.00085075,0.000974755
+0.000655543,0.000786971,0.00104697
+0.000588024,0.000644706,0.000897866
+0.000615425,0.000730071,0.000999606
+0.000587464,0.000638439,0.000810728
+0.000685734,0.000834756,0.00116734
+0.000735559,0.000864292,0.0012718
+0.000884314,0.00108295,0.00150806
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.310196,0.50793,0.643042,0.943039
+0.185788,0.346764,0.488804,0.860298
+0.185604,0.35524,0.357379,0.666832
+0.275334,0.321549,0.44667,0.694332
+0.203703,0.28848,0.485563,0.843067
+0.219961,0.334613,0.58046,1.03228
+0.141016,0.255762,0.315314,0.426733
+0.23102,0.30834,0.494414,0.721334
+0.188486,0.291684,0.463702,0.85966
+0.125074,0.21353,0.406687,0.651329
+0.17247,0.397517,0.547039,0.934895
+0.160805,0.346075,0.466957,0.628435
+0.168724,0.226661,0.269372,0.43605
+0.109093,0.171405,0.309465,0.529411
+0.251524,0.388032,0.452659,0.767589
+0.190369,0.331273,0.477206,0.996047
+0.165596,0.266029,0.423546,0.562698
+0.241107,0.295699,0.472597,0.794147
+0.224394,0.19625,0.352847,0.529407
+0.240449,0.445862,0.666263,1.07424
+0.293931,0.444575,0.741471,1.19051
+0.281811,0.477086,0.786126,1.5504
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 5</AnalysisName>
+      <SA>0.4</SA>
+      <MAFE>0.000732385</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.0378E-06
+5.38086E-06
+4.40283E-06
+5.14189E-06
+4.8449E-06
+4.79603E-06
+5.28012E-06
+5.42496E-06
+5.69006E-06
+4.83729E-06
+4.96886E-06
+5.30316E-06
+4.72509E-06
+4.97878E-06
+5.09951E-06
+4.66401E-06
+4.59296E-06
+5.03581E-06
+5.07592E-06
+5.23293E-06
+5.30644E-06
+5.04824E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.000989785,0.00117115,0.00173619
+0.000611549,0.000714509,0.000999789
+0.000596758,0.000710065,0.000841474
+0.000942484,0.000966979,0.00120195
+0.000936418,0.00108832,0.00150627
+0.000775982,0.000935995,0.00131871
+0.000622108,0.000723801,0.000983806
+0.000908498,0.0012764,0.00190074
+0.000479125,0.000554844,0.000778598
+0.000874259,0.00102682,0.00135411
+0.000766477,0.000897932,0.00121233
+0.000651511,0.000727875,0.00103075
+0.000663736,0.000756036,0.00104625
+0.000607752,0.000648297,0.000771782
+0.00100598,0.00114516,0.00132673
+0.00064938,0.000716916,0.0009459
+0.000615777,0.000658588,0.000838496
+0.000731957,0.000934393,0.00138229
+0.000548178,0.000614411,0.000910391
+0.000722185,0.000837535,0.00111865
+0.000809618,0.000912579,0.00115711
+0.000791944,0.000819463,0.00104427
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.4769,0.743392,0.867387,1.66659
+0.281338,0.330065,0.466604,0.838569
+0.166795,0.375325,0.517216,0.617169
+0.356731,0.556488,0.804555,1.19093
+0.372487,0.580865,0.956315,1.71446
+0.486773,0.548501,0.64068,1.30209
+0.21976,0.334476,0.42288,0.710942
+0.467874,0.743781,1.35435,2.1861
+0.170972,0.300466,0.309672,0.557477
+0.268706,0.447075,0.631533,1.27554
+0.208964,0.309725,0.586737,1.08549
+0.183485,0.27147,0.449328,0.800108
+0.234126,0.367595,0.604367,0.866408
+0.140255,0.232795,0.288972,0.49141
+0.525007,0.826274,1.2324,1.75355
+0.217393,0.285031,0.421417,0.839639
+0.188461,0.33274,0.455544,0.661013
+0.300072,0.564748,0.727653,1.37187
+0.274522,0.355327,0.582129,0.858439
+0.332015,0.431995,0.8169,1.1336
+0.317009,0.428169,0.649199,0.979236
+0.263826,0.435431,0.598885,0.828402
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00075771,0.000864491,0.00135357
+0.000753368,0.00089878,0.00127349
+0.000648471,0.000795976,0.00115317
+0.000767136,0.000839218,0.00107526
+0.000729503,0.000811132,0.00116514
+0.000777365,0.000968794,0.00144977
+0.000571429,0.000636618,0.000877594
+0.000749108,0.000815745,0.00112787
+0.000833299,0.000972579,0.00124699
+0.000736272,0.000850427,0.00106112
+0.000748784,0.000940889,0.00135186
+0.000719717,0.00082545,0.00102975
+0.000583699,0.000688346,0.000893731
+0.000614767,0.000745783,0.000930633
+0.00101369,0.00108568,0.00117553
+0.000777194,0.000940849,0.00130001
+0.000695978,0.000748225,0.00104817
+0.000705082,0.000837445,0.00115795
+0.000662352,0.000719301,0.000908133
+0.000797378,0.00103989,0.00147165
+0.000864126,0.00102185,0.00148582
+0.0010483,0.00125208,0.00172566
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.413594,0.695252,0.892845,1.36617
+0.247718,0.449566,0.67473,1.1578
+0.247472,0.449005,0.508547,1.03
+0.367113,0.467551,0.641134,0.925356
+0.271604,0.375999,0.561631,0.98186
+0.293282,0.468324,0.779648,1.37592
+0.188022,0.341683,0.403829,0.59475
+0.308027,0.43357,0.700518,1.07792
+0.251315,0.384527,0.602317,1.18996
+0.166766,0.278432,0.501746,0.889042
+0.229959,0.492557,0.720508,1.30521
+0.214407,0.449108,0.626194,0.85706
+0.224965,0.274882,0.350986,0.591218
+0.145457,0.213542,0.407978,0.754739
+0.335366,0.508697,0.699034,0.915236
+0.253826,0.432122,0.647358,1.37469
+0.220796,0.296455,0.524955,0.770104
+0.321476,0.352511,0.607489,1.00797
+0.299193,0.275324,0.413928,0.682208
+0.320597,0.588891,0.814046,1.49857
+0.391907,0.571585,0.932878,1.48458
+0.375748,0.549584,0.998508,1.90992
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 6</AnalysisName>
+      <SA>0.5</SA>
+      <MAFE>0.000499997</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.04636E-06
+5.38944E-06
+4.40824E-06
+5.10681E-06
+5.02114E-06
+4.20794E-06
+5.28864E-06
+5.39274E-06
+5.65829E-06
+4.88436E-06
+4.86584E-06
+5.32138E-06
+4.71464E-06
+5.0568E-06
+4.91257E-06
+4.95796E-06
+4.59943E-06
+5.08005E-06
+5.04836E-06
+5.3867E-06
+5.43751E-06
+4.99586E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00114855,0.00132993,0.00208019
+0.000717525,0.000828792,0.00118289
+0.000675483,0.000794929,0.000970709
+0.00108709,0.00114576,0.00147028
+0.00106289,0.00124706,0.00175185
+0.000876369,0.00105017,0.0015129
+0.00069482,0.000815644,0.00115708
+0.00107125,0.00153726,0.00233838
+0.000560856,0.000627727,0.000921911
+0.000995671,0.00117467,0.0016181
+0.00086405,0.00102531,0.00140557
+0.000741868,0.000829851,0.00117401
+0.00076093,0.000867639,0.00122714
+0.000700443,0.000740647,0.000875983
+0.00121851,0.00138993,0.00165692
+0.000723549,0.000809876,0.000977974
+0.000721391,0.000756939,0.000972892
+0.000844895,0.00106324,0.00155863
+0.00064837,0.000714679,0.00103151
+0.000863979,0.000991417,0.00129991
+0.000923015,0.00101906,0.00125679
+0.000896142,0.000914946,0.00118021
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.596125,0.923185,1.14771,2.08228
+0.351673,0.39432,0.605122,1.08515
+0.208493,0.458953,0.657524,0.782328
+0.445913,0.669952,0.970344,1.51745
+0.465609,0.754757,1.23549,2.21247
+0.608466,0.667232,0.768398,1.52178
+0.2747,0.362858,0.519386,0.952283
+0.584841,0.92214,1.6821,2.80815
+0.213716,0.349757,0.381189,0.761832
+0.335884,0.561394,0.779123,1.67141
+0.261205,0.367082,0.670431,1.34732
+0.229357,0.320804,0.540123,0.958076
+0.292657,0.417846,0.674487,1.03147
+0.175318,0.271628,0.35105,0.624505
+0.65626,1.0664,1.61388,2.30061
+0.271741,0.330466,0.500575,0.926754
+0.235576,0.414355,0.56554,0.876346
+0.375091,0.688538,0.881408,1.64401
+0.343153,0.436281,0.686461,1.1422
+0.415019,0.55371,1.00455,1.50881
+0.396262,0.491104,0.775419,1.23737
+0.329782,0.546231,0.713752,1.0485
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.000920406,0.00103292,0.00160564
+0.000855901,0.00102476,0.0014703
+0.000765158,0.000945237,0.00135477
+0.000851763,0.000940298,0.0012324
+0.000801367,0.000916164,0.00119131
+0.000918552,0.00114599,0.00165852
+0.000640702,0.000701748,0.00100943
+0.000799382,0.000873906,0.00123861
+0.000971825,0.00112747,0.00147002
+0.000859304,0.000993943,0.00121127
+0.00086699,0.00107728,0.00153564
+0.000812432,0.000926028,0.00118918
+0.000650684,0.000765982,0.00101258
+0.000696673,0.000841499,0.0010877
+0.00122024,0.00129793,0.00142086
+0.000871262,0.0010732,0.00147561
+0.000802554,0.000851651,0.00115465
+0.000788072,0.000932973,0.00127773
+0.000721963,0.00078436,0.000979632
+0.000896976,0.00122003,0.00174739
+0.000987551,0.00116161,0.0016415
+0.00118515,0.00138201,0.00189012
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.516993,0.890673,1.1473,1.7479
+0.309647,0.552253,0.812889,1.45771
+0.30934,0.537239,0.637186,1.33788
+0.458891,0.555632,0.835982,1.2072
+0.339506,0.435093,0.572413,1.04588
+0.366602,0.610188,0.99052,1.68621
+0.235028,0.415791,0.521538,0.774635
+0.385034,0.495632,0.800301,1.15388
+0.314144,0.449777,0.762338,1.50995
+0.208457,0.353043,0.617634,1.11054
+0.28745,0.583061,0.840792,1.60084
+0.268009,0.547774,0.781568,1.08341
+0.281207,0.35446,0.460799,0.733376
+0.181822,0.252384,0.500148,0.962194
+0.419207,0.649087,0.911654,1.32751
+0.317281,0.537789,0.811324,1.67854
+0.275995,0.362826,0.530115,0.934552
+0.401845,0.40525,0.726946,1.18606
+0.373991,0.35591,0.452126,0.823321
+0.400747,0.742323,1.04,1.93251
+0.489884,0.729621,1.13311,1.74343
+0.469685,0.647709,1.19528,2.18647
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 7</AnalysisName>
+      <SA>0.6</SA>
+      <MAFE>0.00036295</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.0543E-06
+5.38717E-06
+4.4198E-06
+5.02797E-06
+5.15574E-06
+3.811E-06
+5.30244E-06
+5.36487E-06
+5.61806E-06
+4.99402E-06
+4.78128E-06
+5.30379E-06
+4.71001E-06
+5.12265E-06
+4.69585E-06
+5.21996E-06
+4.63478E-06
+5.11706E-06
+5.00704E-06
+5.45849E-06
+5.51319E-06
+4.98568E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00128585,0.00146241,0.00240334
+0.000816184,0.000939309,0.0013459
+0.000744518,0.000879615,0.00109022
+0.00117911,0.00132475,0.0017514
+0.00119088,0.00138622,0.00192728
+0.000967957,0.00115256,0.00168667
+0.00076459,0.00090579,0.0013278
+0.00120704,0.00176302,0.00273227
+0.000641997,0.000699083,0.0010769
+0.00111221,0.0013106,0.0018259
+0.0009604,0.00113765,0.00160368
+0.00081023,0.00091791,0.00127572
+0.000851599,0.000977091,0.00135577
+0.000781721,0.000826309,0.000945731
+0.00142067,0.00160328,0.00195656
+0.000780813,0.000878224,0.00111869
+0.000822378,0.000861443,0.00108237
+0.000955769,0.0011846,0.00174512
+0.00074158,0.000800233,0.00110672
+0.00101652,0.00110709,0.00141764
+0.0010203,0.00110518,0.00135121
+0.000997159,0.00100304,0.00129853
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.71535,1.11055,1.41008,2.46228
+0.422008,0.452129,0.729004,1.29357
+0.250193,0.542949,0.788576,0.939663
+0.535097,0.714,1.1317,1.87822
+0.558731,0.917015,1.50067,2.64563
+0.730159,0.782446,0.887253,1.78276
+0.32964,0.389549,0.610656,1.18414
+0.701809,1.08795,1.98246,3.3792
+0.256459,0.392001,0.475153,0.947095
+0.40306,0.680273,0.929051,2.00528
+0.313446,0.456589,0.805734,1.6749
+0.275227,0.358404,0.602102,1.12703
+0.35119,0.477819,0.73612,1.25183
+0.210382,0.313361,0.433415,0.72926
+0.787512,1.31504,2.00581,2.83286
+0.32609,0.370105,0.579521,1.02544
+0.282691,0.489197,0.674129,1.05617
+0.450109,0.802704,1.00777,1.94211
+0.411783,0.498142,0.743959,1.38296
+0.498023,0.706565,1.11086,1.88779
+0.475514,0.578895,0.880165,1.51102
+0.395738,0.659781,0.811567,1.25648
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00107559,0.00125042,0.00191421
+0.000956814,0.00114459,0.00165336
+0.000869462,0.0010743,0.00156616
+0.000918394,0.00104608,0.00137583
+0.000874209,0.001002,0.00116698
+0.00105292,0.00130109,0.00189567
+0.000698855,0.0007595,0.00112092
+0.000889848,0.000910493,0.00131574
+0.00109675,0.00127154,0.00168811
+0.000971772,0.0011239,0.00136474
+0.000969532,0.0011929,0.0016977
+0.000900885,0.00101485,0.00132929
+0.000714627,0.000843093,0.00112606
+0.00076515,0.000924729,0.00122434
+0.00140064,0.00148155,0.00163238
+0.000949305,0.00117107,0.00166454
+0.000897116,0.000944063,0.00129144
+0.00086941,0.00102246,0.00137709
+0.000771168,0.000838242,0.00106962
+0.00105006,0.00138809,0.00201444
+0.00112823,0.00128065,0.00177632
+0.00130516,0.001534,0.00204732
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.620391,1.09183,1.40446,2.15361
+0.371577,0.652269,0.964832,1.75236
+0.371209,0.621398,0.757124,1.67203
+0.55067,0.690271,1.02871,1.4915
+0.407406,0.525909,0.651336,0.998737
+0.439924,0.736999,1.19422,2.04766
+0.282034,0.490796,0.631833,0.945501
+0.46204,0.554707,0.901592,1.47384
+0.376972,0.523761,0.899508,1.82496
+0.250148,0.423064,0.729747,1.33106
+0.344939,0.657629,0.962093,1.82159
+0.321611,0.643051,0.932817,1.30617
+0.337448,0.431284,0.55022,0.898363
+0.218186,0.295425,0.557687,1.14646
+0.503049,0.88484,1.3607,1.98533
+0.380738,0.65953,0.937492,1.92716
+0.331194,0.425541,0.637942,1.1096
+0.482215,0.49249,0.837051,1.34797
+0.448789,0.437249,0.475686,0.959896
+0.480896,0.906206,1.28951,2.34506
+0.587861,0.89822,1.34431,2.03917
+0.563622,0.76836,1.44118,2.44569
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 8</AnalysisName>
+      <SA>0.7</SA>
+      <MAFE>0.000275134</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.06099E-06
+5.37846E-06
+4.44536E-06
+4.92143E-06
+5.263E-06
+3.69655E-06
+5.32132E-06
+5.34777E-06
+5.57414E-06
+5.05914E-06
+4.7069E-06
+5.25867E-06
+4.70594E-06
+5.17877E-06
+4.47003E-06
+5.41963E-06
+4.68937E-06
+5.14842E-06
+4.9561E-06
+5.479E-06
+5.55559E-06
+5.00981E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00140691,0.00160849,0.00271241
+0.000908795,0.00104535,0.0015171
+0.000810334,0.000958641,0.00123068
+0.00124933,0.0015163,0.00203305
+0.00130195,0.00150402,0.00211662
+0.00105355,0.00125751,0.00184687
+0.000834925,0.00099688,0.00147894
+0.00135052,0.00195839,0.0031125
+0.000725537,0.000773817,0.00122887
+0.0012239,0.00143584,0.00199226
+0.00104722,0.00123922,0.00176358
+0.000869618,0.00103128,0.00140413
+0.000934886,0.00107896,0.0015074
+0.000852636,0.000902942,0.00103172
+0.00160018,0.00181427,0.00223259
+0.00083775,0.000948466,0.00126493
+0.000920419,0.000961798,0.00121843
+0.00105844,0.00128452,0.00191213
+0.000833306,0.000862359,0.00122322
+0.00114683,0.0011798,0.00166142
+0.00110949,0.00118159,0.0015768
+0.00109265,0.00108389,0.00140295
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.834575,1.3025,1.65896,2.82945
+0.492343,0.50168,0.874771,1.49604
+0.291891,0.625983,0.911631,1.10586
+0.624279,0.838863,1.3525,2.26646
+0.651852,1.07087,1.76249,3.032
+0.851852,0.886673,1.03536,2.02946
+0.38458,0.449965,0.686587,1.39174
+0.818778,1.20078,2.15331,3.94458
+0.299202,0.438018,0.567801,1.17181
+0.470236,0.76866,1.10689,2.28579
+0.365687,0.521172,0.886219,1.94265
+0.321099,0.412221,0.668017,1.38105
+0.409721,0.552045,0.792081,1.4883
+0.245445,0.364115,0.485723,0.857452
+0.918764,1.56881,2.40053,3.3554
+0.380438,0.407162,0.598613,1.18584
+0.329806,0.560186,0.798529,1.20667
+0.525127,0.908141,1.11887,2.21871
+0.480414,0.543924,0.78214,1.57379
+0.581028,0.863852,1.31917,2.1667
+0.554767,0.707734,0.986402,1.79533
+0.461694,0.762839,0.937847,1.45294
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00122739,0.00145614,0.00220761
+0.0010555,0.00125852,0.00182653
+0.000957841,0.00118773,0.00171723
+0.000983265,0.00113704,0.00153693
+0.0009397,0.00107717,0.00126009
+0.00118177,0.00144157,0.00207285
+0.000750146,0.000813186,0.00123596
+0.00102102,0.00111494,0.001452
+0.00121798,0.001412,0.00188989
+0.0010771,0.00124318,0.00151542
+0.00106835,0.00130214,0.00181035
+0.000985369,0.00109437,0.00145462
+0.000778417,0.000920864,0.00123759
+0.000832675,0.00100028,0.00134416
+0.00157909,0.00166914,0.0018396
+0.00102108,0.0012773,0.00180631
+0.000979828,0.00102405,0.00139097
+0.000947426,0.0011064,0.00146499
+0.000812809,0.000883785,0.00115259
+0.00121964,0.00154979,0.00228401
+0.00122979,0.00142038,0.00190679
+0.00143063,0.00170042,0.00230068
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.72379,1.29292,1.65972,2.55725
+0.433506,0.749169,1.12703,2.03145
+0.433076,0.702869,0.869667,1.91208
+0.642448,0.793684,1.21975,1.77989
+0.475307,0.615893,0.75859,0.941892
+0.513244,0.840786,1.36594,2.39104
+0.329039,0.565476,0.748276,1.15087
+0.539047,0.665278,1.14564,1.80824
+0.439801,0.636842,1.01085,2.12757
+0.291839,0.489146,0.827645,1.53791
+0.402429,0.72264,1.05794,2.00427
+0.375212,0.735686,1.07999,1.52375
+0.393689,0.507147,0.640175,1.08565
+0.254549,0.352598,0.618396,1.31346
+0.58689,1.08417,1.70973,2.51968
+0.444195,0.760178,1.05014,2.07689
+0.386392,0.486586,0.739557,1.24015
+0.562584,0.579576,0.942493,1.5017
+0.523587,0.518748,0.511075,1.09134
+0.561046,1.07189,1.54451,2.74718
+0.685838,1.06925,1.53454,2.33903
+0.657559,0.888542,1.70717,2.75955
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 9</AnalysisName>
+      <SA>0.8</SA>
+      <MAFE>0.000215421</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.06466E-06
+5.36525E-06
+4.48691E-06
+4.80182E-06
+5.3336E-06
+3.64087E-06
+5.34176E-06
+5.34657E-06
+5.52903E-06
+5.07255E-06
+4.63816E-06
+5.18886E-06
+4.6984E-06
+5.2271E-06
+4.2628E-06
+5.56728E-06
+4.75233E-06
+5.17533E-06
+4.89884E-06
+5.4683E-06
+5.57949E-06
+5.05448E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00151959,0.00178898,0.00301291
+0.000998432,0.0011495,0.00166467
+0.000880039,0.00103268,0.00136557
+0.00145838,0.00175197,0.00233048
+0.00139792,0.00160503,0.00224445
+0.00113656,0.0013592,0.00199744
+0.000905681,0.00108519,0.00161176
+0.00147972,0.00211652,0.00352638
+0.000809422,0.000858026,0.00136182
+0.00133213,0.00156024,0.00218698
+0.00112345,0.00133958,0.00189153
+0.000934491,0.00111166,0.0014835
+0.00101839,0.00117147,0.00165143
+0.000908528,0.000969124,0.00110865
+0.00175642,0.00199121,0.00254341
+0.000893997,0.00101922,0.0014124
+0.0010163,0.00105835,0.00138574
+0.00116256,0.00137054,0.00205166
+0.000917981,0.000910509,0.00127904
+0.00119225,0.00120248,0.00189446
+0.00119445,0.00128309,0.00180363
+0.00118442,0.00116003,0.00151814
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.9538,1.43559,1.91308,3.11077
+0.562677,0.569393,0.945699,1.73076
+0.33359,0.707466,1.02878,1.27907
+0.713462,1.01283,1.58653,2.73159
+0.744973,1.21871,2.00614,3.37886
+0.973545,0.991852,1.21776,2.26143
+0.43952,0.51338,0.753019,1.60001
+0.935746,1.2899,2.2573,4.52353
+0.341945,0.485789,0.687566,1.37255
+0.537413,0.897422,1.24558,2.5256
+0.417929,0.615448,0.925979,2.12936
+0.36697,0.450847,0.717632,1.51002
+0.468252,0.628811,0.870822,1.72177
+0.28051,0.41055,0.534528,0.979705
+1.05001,1.81943,2.78773,3.87327
+0.434786,0.486186,0.68347,1.33969
+0.376922,0.629152,0.927811,1.33872
+0.600145,1.00619,1.23831,2.4469
+0.549045,0.586129,0.813807,1.74438
+0.664032,0.954049,1.53148,2.60375
+0.634018,0.838661,1.15416,2.08812
+0.52765,0.858924,1.07357,1.64151
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00137756,0.00165197,0.00253245
+0.00115358,0.00136691,0.00199186
+0.00103248,0.00127938,0.00182073
+0.00106325,0.00123703,0.00164226
+0.00100154,0.00114607,0.00134291
+0.00131607,0.00158278,0.00220932
+0.000797236,0.000876789,0.00135104
+0.00124381,0.00137739,0.00168955
+0.00132893,0.00153974,0.00207009
+0.00117581,0.00135407,0.00165583
+0.00115472,0.00139619,0.00189486
+0.00106491,0.00117362,0.00156799
+0.000842852,0.00099833,0.00135036
+0.000897131,0.0010745,0.00145057
+0.00174749,0.00184503,0.00208993
+0.00111135,0.00136823,0.00192293
+0.00105008,0.00109376,0.0014557
+0.00102298,0.00118699,0.0015465
+0.000853239,0.000922873,0.00123029
+0.00138145,0.00170858,0.00255577
+0.00132072,0.00153447,0.00207139
+0.00157383,0.00185967,0.00253736
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.827189,1.4916,1.91296,2.95932
+0.495435,0.843322,1.26831,2.2951
+0.494945,0.782907,0.976438,2.08354
+0.734226,0.909457,1.41541,2.06997
+0.543208,0.705243,0.863163,1.0818
+0.586565,0.964906,1.53897,2.71505
+0.376044,0.649691,0.856427,1.33844
+0.616053,0.800437,1.4015,2.16993
+0.50263,0.763232,1.11217,2.40697
+0.333531,0.552277,0.912697,1.73448
+0.459918,0.800702,1.14682,2.19558
+0.428814,0.825987,1.22308,1.73543
+0.449931,0.581107,0.733694,1.27167
+0.290914,0.410098,0.672641,1.46661
+0.670731,1.27303,2.0276,2.99607
+0.50765,0.836227,1.16559,2.34352
+0.441591,0.544806,0.819613,1.33621
+0.642953,0.667273,1.04604,1.65203
+0.598385,0.601725,0.605611,1.21916
+0.641195,1.23838,1.8026,3.14388
+0.783814,1.24152,1.70911,2.59488
+0.751496,1.01622,1.97094,3.17379
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 10</AnalysisName>
+      <SA>0.9</SA>
+      <MAFE>0.000172959</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.05236E-06
+5.34853E-06
+4.54025E-06
+4.68668E-06
+5.36509E-06
+3.5769E-06
+5.35922E-06
+7.94581E-06
+5.54861E-06
+5.04935E-06
+4.57309E-06
+5.09577E-06
+4.68432E-06
+5.2694E-06
+5.10456E-06
+5.6795E-06
+4.8141E-06
+5.19865E-06
+4.83827E-06
+5.43727E-06
+5.59372E-06
+5.10599E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00162965,0.00198392,0.00332648
+0.00108682,0.00125319,0.00179326
+0.000947262,0.00110274,0.00149238
+0.00164176,0.0019676,0.00262836
+0.00150376,0.00169974,0.00233393
+0.00124003,0.00148276,0.00216812
+0.000976165,0.00117233,0.00173
+0.00159746,0.00225716,0.00393433
+0.000885823,0.000936124,0.00146777
+0.00143771,0.00167864,0.00237336
+0.00119347,0.00142896,0.00202997
+0.000988295,0.00117251,0.00156192
+0.00109458,0.00125525,0.00176876
+0.000956818,0.00102476,0.00117328
+0.00189677,0.00219753,0.0028447
+0.000953546,0.00110063,0.00148255
+0.00111026,0.00115025,0.00155111
+0.00126419,0.00144644,0.00216423
+0.00100446,0.00100336,0.00137115
+0.00125222,0.00133703,0.0021174
+0.00127718,0.00141388,0.0020218
+0.00127252,0.00123577,0.00162878
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.07303,1.57246,2.10069,3.36981
+0.633012,0.646744,0.981086,1.92457
+0.375288,0.787085,1.1412,1.46005
+0.802645,1.17266,1.85274,3.20804
+0.838096,1.36402,2.23877,3.70412
+1.09524,1.10353,1.39793,2.47939
+0.49446,0.575437,0.813787,1.79457
+1.05271,1.44325,2.42101,5.01031
+0.384688,0.532629,0.797101,1.53558
+0.60459,1.01546,1.37165,2.84545
+0.470169,0.692803,1.0184,2.39372
+0.412842,0.481424,0.763106,1.63036
+0.526784,0.71769,0.969685,1.92019
+0.315573,0.457494,0.630565,1.09211
+1.18126,2.05853,3.15442,4.37399
+0.489135,0.574487,0.769454,1.42944
+0.424037,0.69626,1.05441,1.53283
+0.675163,1.09912,1.34782,2.62972
+0.617675,0.628292,0.844376,1.95371
+0.747035,1.11048,1.66911,3.04028
+0.713271,0.970213,1.31988,2.38765
+0.593607,0.950542,1.20303,1.82024
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00152927,0.00183842,0.00287949
+0.0012505,0.00147031,0.00215025
+0.00109494,0.00135296,0.00192982
+0.00117059,0.00136611,0.00170772
+0.00106727,0.00121112,0.00141865
+0.00144018,0.00170692,0.00233139
+0.000859157,0.000949633,0.00145527
+0.00145038,0.00162102,0.00197195
+0.00142869,0.00165272,0.00222929
+0.00126917,0.00145834,0.0017884
+0.00123615,0.0014754,0.001998
+0.00114003,0.00125137,0.00167127
+0.000907463,0.00107432,0.00146397
+0.000959072,0.00114624,0.00154784
+0.00191581,0.00202332,0.00238978
+0.00119433,0.00145129,0.00204165
+0.00110633,0.00115193,0.00152164
+0.00109649,0.00126526,0.00162397
+0.00089189,0.000956796,0.00130346
+0.00152587,0.00186348,0.00282352
+0.00142067,0.00162311,0.0022142
+0.00171826,0.00201721,0.00275663
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>0.930587,1.68932,2.16771,3.36025
+0.557365,0.935118,1.39425,2.54425
+0.556812,0.862372,1.07756,2.29969
+0.826004,1.03288,1.61429,2.3582
+0.611109,0.794009,0.967023,1.23915
+0.659885,1.08023,1.71104,3.02355
+0.42305,0.733872,0.955195,1.51274
+0.69306,0.93859,1.66512,2.55235
+0.565459,0.888286,1.24407,2.66037
+0.375222,0.613102,1.00275,1.9214
+0.517409,0.898789,1.25175,2.30506
+0.482416,0.914057,1.36207,1.94108
+0.506171,0.651595,0.829186,1.4522
+0.327278,0.466298,0.72575,1.6142
+0.754573,1.45776,2.33334,3.45013
+0.571107,0.892851,1.27987,2.5825
+0.49679,0.586651,0.872429,1.40384
+0.723322,0.755661,1.14907,1.80092
+0.673183,0.685339,0.701136,1.3453
+0.721345,1.40552,2.06315,3.53616
+0.881791,1.39283,1.87583,2.84826
+0.845433,1.14916,2.24529,3.56095
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 11</AnalysisName>
+      <SA>1</SA>
+      <MAFE>0.000141689</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.05307E-06
+5.32878E-06
+4.59886E-06
+4.48655E-06
+5.35778E-06
+3.51036E-06
+5.3704E-06
+3.62546E-05
+5.61481E-06
+5.00241E-06
+4.51089E-06
+4.98135E-06
+4.66209E-06
+5.3075E-06
+6.09014E-05
+5.76776E-06
+4.86763E-06
+5.21899E-06
+4.77704E-06
+5.39316E-06
+5.6033E-06
+5.15534E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00173588,0.00216081,0.00360911
+0.00117495,0.00135718,0.00193953
+0.00101768,0.00116958,0.00161056
+0.00178746,0.00214762,0.00290074
+0.00160158,0.00179939,0.00248674
+0.00132291,0.00160318,0.00233956
+0.00106909,0.00125544,0.00183381
+0.00170448,0.00238075,0.00433156
+0.000953709,0.00100865,0.00156518
+0.00154069,0.00179134,0.00253986
+0.00126531,0.00150837,0.00217492
+0.00102289,0.00122223,0.00157519
+0.0011604,0.00133474,0.00187251
+0.00100402,0.00107793,0.00123103
+0.00204356,0.00241762,0.00318008
+0.0010139,0.00117817,0.00157767
+0.00120128,0.00124408,0.00171066
+0.00136208,0.00153345,0.00225477
+0.00108722,0.00108682,0.0014851
+0.00136157,0.0014658,0.0023292
+0.00135879,0.00153359,0.0022236
+0.00135941,0.00131293,0.00173127
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.19225,1.73911,2.26441,3.73863
+0.703347,0.737759,1.0935,2.19507
+0.416987,0.864894,1.25023,1.63419
+0.891828,1.33138,2.05834,3.64105
+0.931217,1.508,2.46407,4.01751
+1.21693,1.21131,1.53415,2.67686
+0.5494,0.645661,0.932377,2.0337
+1.16968,1.59765,2.69322,5.40291
+0.427431,0.570379,0.891823,1.67593
+0.671767,1.11608,1.55497,3.15224
+0.52241,0.747665,1.14629,2.64041
+0.458713,0.507656,0.811386,1.62716
+0.585315,0.815076,1.05545,2.06972
+0.350637,0.510705,0.726414,1.19455
+1.31252,2.32724,3.38174,4.93258
+0.543483,0.63958,0.880164,1.53213
+0.471152,0.759074,1.17566,1.75936
+0.750181,1.18784,1.45,2.76058
+0.686306,0.672407,0.875033,2.14406
+0.830039,1.32296,2.03828,3.47168
+0.792523,1.10171,1.4783,2.69255
+0.659563,1.03794,1.32829,1.99825
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00167822,0.00201924,0.00326357
+0.00134554,0.00157622,0.002302
+0.00114957,0.00141216,0.00203117
+0.00128846,0.00148866,0.00192604
+0.00113305,0.00127446,0.00148749
+0.00155609,0.00181864,0.00248608
+0.000926635,0.00101829,0.00154957
+0.00164576,0.00185226,0.00227529
+0.0015202,0.00175353,0.00237
+0.00135817,0.00155729,0.00191511
+0.00131159,0.00154635,0.00208458
+0.00121791,0.00132364,0.00176582
+0.000970752,0.00114686,0.00157124
+0.00101995,0.00121572,0.00163871
+0.0020756,0.00218937,0.00276789
+0.00127209,0.00153905,0.002203
+0.00117051,0.00119926,0.00154913
+0.00116825,0.00134172,0.0016983
+0.000927747,0.000986449,0.00137176
+0.0016582,0.001993,0.00310505
+0.00152881,0.00173509,0.00235702
+0.00186443,0.00218646,0.00295546
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.03399,1.88566,2.42298,3.71226
+0.619295,1.02854,1.52213,2.77992
+0.618681,0.941433,1.17415,2.44317
+0.917783,1.15869,1.81484,2.64321
+0.67901,0.882507,1.07161,1.38825
+0.733206,1.18877,1.87413,3.3269
+0.470055,0.816635,1.05065,1.67231
+0.770066,1.07707,1.9326,2.94837
+0.628287,1.00682,1.38944,2.89239
+0.416913,0.672461,1.09657,2.09999
+0.574898,0.994741,1.39539,2.34723
+0.536017,0.999962,1.49701,2.14077
+0.562413,0.726179,0.933292,1.62051
+0.363642,0.521341,0.793403,1.76068
+0.838414,1.63871,2.62769,3.88173
+0.634564,0.9731,1.42007,2.79327
+0.55199,0.627358,0.894531,1.51534
+0.803691,0.845978,1.25219,1.94896
+0.747982,0.76891,0.797286,1.47055
+0.801493,1.57295,2.32499,3.96246
+0.979769,1.52555,2.05227,3.15561
+0.93937,1.2671,2.53387,3.99583
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 12</AnalysisName>
+      <SA>1.1</SA>
+      <MAFE>0.000118003</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.03535E-06
+5.3063E-06
+4.65167E-06
+4.48162E-06
+5.31745E-06
+3.45138E-06
+5.37365E-06
+9.08702E-05
+5.67334E-06
+4.94175E-06
+4.45127E-06
+4.85075E-06
+4.6323E-06
+5.3433E-06
+0.000167401
+5.8391E-06
+4.90917E-06
+5.23688E-06
+4.71729E-06
+5.34143E-06
+5.61075E-06
+5.19917E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00183202,0.00231895,0.00386876
+0.0012709,0.00146865,0.00211417
+0.00108565,0.00123405,0.00172127
+0.0018884,0.00227364,0.0030844
+0.00169225,0.00189259,0.0026504
+0.00141997,0.00172138,0.00250552
+0.00117237,0.00133674,0.00192597
+0.00179947,0.00247436,0.00472669
+0.00101822,0.00107431,0.00165258
+0.00164088,0.00189863,0.00268855
+0.00133038,0.00157959,0.00230246
+0.00105218,0.00125578,0.00156283
+0.00122415,0.00141456,0.00200928
+0.00104167,0.00113111,0.00130314
+0.00222182,0.00262337,0.00351552
+0.00108107,0.00125139,0.00171126
+0.00128843,0.00133423,0.00186193
+0.00145685,0.00161109,0.00233611
+0.00116935,0.00118172,0.00158836
+0.00148934,0.00159519,0.0025582
+0.00143988,0.00164834,0.00240046
+0.00144373,0.00138525,0.00182717
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.31148,1.91112,2.43653,4.09361
+0.773681,0.833035,1.24068,2.48305
+0.458686,0.941236,1.35753,1.81034
+0.98101,1.50769,2.20904,3.89299
+1.02434,1.65039,2.68327,4.32277
+1.33862,1.30758,1.62902,2.90178
+0.60434,0.732768,1.06895,2.27141
+1.28665,1.77145,2.9519,5.85968
+0.470174,0.606392,0.989503,1.7932
+0.738943,1.20107,1.71956,3.43915
+0.574651,0.823071,1.24756,2.83153
+0.504584,0.548012,0.851535,1.62953
+0.643847,0.912525,1.12794,2.26355
+0.3857,0.572761,0.815915,1.28747
+1.44377,2.56821,3.6603,5.34029
+0.597831,0.732937,0.933677,1.70213
+0.518267,0.816654,1.29017,1.98254
+0.8252,1.27283,1.54706,2.99268
+0.754936,0.750089,0.907164,2.31666
+0.913043,1.42488,2.49363,3.89767
+0.871776,1.23282,1.62757,3.0018
+0.72552,1.14647,1.44885,2.16806
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00182184,0.0021887,0.00369448
+0.00143883,0.00167986,0.00244721
+0.00120427,0.00147071,0.00210938
+0.00145511,0.00164224,0.00214654
+0.00120339,0.00135326,0.00156544
+0.00166594,0.00193143,0.00262523
+0.000991075,0.00108304,0.00163454
+0.00183264,0.00207442,0.00257244
+0.00161018,0.00184529,0.00249573
+0.0014435,0.00165199,0.00203792
+0.00138227,0.00161887,0.00216546
+0.00129293,0.00139245,0.00185268
+0.0010313,0.0012181,0.00167961
+0.00107985,0.00128329,0.00172546
+0.00220993,0.00232178,0.00310017
+0.00134625,0.00163466,0.00235668
+0.00124683,0.00125732,0.00159473
+0.00123865,0.00141684,0.00177518
+0.000961241,0.00101247,0.00143373
+0.00179552,0.00211554,0.0033814
+0.00164291,0.00183357,0.00252871
+0.00199167,0.00235355,0.00315753
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.13738,2.08319,2.68213,4.07484
+0.681223,1.11878,1.63109,3.00307
+0.680548,1.02036,1.26855,2.52657
+1.00956,1.28629,2.0163,2.92413
+0.746911,0.970961,1.17745,1.52817
+0.806526,1.2908,2.02919,3.62668
+0.517061,0.897423,1.16325,1.81991
+0.847073,1.21364,2.20081,3.35299
+0.691116,1.11706,1.54219,3.1091
+0.458604,0.731109,1.18681,2.27176
+0.632388,1.08601,1.53074,2.5039
+0.58962,1.09084,1.628,2.33469
+0.618654,0.803987,1.03947,1.77176
+0.400007,0.574439,0.858232,1.90567
+0.922256,1.81696,2.9061,4.28218
+0.698019,1.06199,1.58512,2.96949
+0.607189,0.698411,0.924988,1.75818
+0.88406,0.937153,1.37842,2.09673
+0.82278,0.852405,0.893856,1.59263
+0.881643,1.74106,2.58808,4.40143
+1.07775,1.6541,2.22758,3.453
+1.0333,1.39705,2.79554,4.36102
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 13</AnalysisName>
+      <SA>1.2</SA>
+      <MAFE>9.96407E-05</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>5.03136E-06
+5.28134E-06
+4.68589E-06
+4.35649E-06
+1.01179E-05
+3.44009E-06
+5.36851E-06
+0.000178018
+5.72343E-06
+4.87454E-06
+4.39421E-06
+4.71356E-06
+4.59756E-06
+5.37783E-06
+0.000292547
+5.89799E-06
+4.93843E-06
+5.2526E-06
+4.66056E-06
+5.27319E-06
+5.61718E-06
+5.23861E-06
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00194348,0.00246851,0.00412499
+0.0013684,0.00158134,0.00227908
+0.00115118,0.00130832,0.00182674
+0.00195647,0.00236228,0.00323059
+0.00177658,0.00198016,0.00282764
+0.00152566,0.0018379,0.00266733
+0.00127627,0.00141911,0.00201385
+0.00188759,0.00258201,0.00517085
+0.00108177,0.0011324,0.00172497
+0.0017379,0.00200052,0.002821
+0.00139054,0.00164398,0.00241479
+0.00108675,0.00127544,0.00157526
+0.00129026,0.0014944,0.0021318
+0.00107126,0.00117772,0.00141558
+0.00241664,0.00280633,0.00401416
+0.00115644,0.00133261,0.00182266
+0.00137302,0.00141824,0.00200459
+0.00154855,0.00169847,0.00242821
+0.0012469,0.0012823,0.00167179
+0.00167641,0.00180329,0.00289122
+0.00152089,0.00176707,0.00255495
+0.00152423,0.0014532,0.00192048
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.4307,2.08606,2.62521,4.45893
+0.844015,0.929029,1.38322,2.74959
+0.500384,1.01622,1.46352,2.12366
+1.07019,1.70328,2.34533,4.02698
+1.11746,1.79569,2.88589,4.6288
+1.46032,1.39348,1.84714,3.14349
+0.65928,0.822504,1.20892,2.50453
+1.40362,1.94435,3.11906,6.2493
+0.512917,0.66275,1.08846,1.94068
+0.80612,1.28263,1.86588,3.70286
+0.626892,0.900604,1.32512,2.97637
+0.550456,0.61703,0.894329,1.71673
+0.702378,1.00421,1.19092,2.48402
+0.420765,0.63092,0.899968,1.37052
+1.57503,2.79737,3.97985,5.64777
+0.652179,0.795205,1.07327,1.84029
+0.565382,0.874431,1.3985,2.20519
+0.900218,1.36462,1.64345,3.19223
+0.823567,0.835108,0.969036,2.47822
+0.996047,1.53065,2.94731,4.31824
+0.951028,1.36332,1.79296,3.31458
+0.791476,1.25244,1.56385,2.32627
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00195428,0.00235128,0.00414007
+0.00153057,0.00178059,0.00258612
+0.001252,0.00152696,0.00217025
+0.00159053,0.00179529,0.0023297
+0.00128892,0.00143277,0.00163581
+0.00177261,0.0020465,0.00275522
+0.00105275,0.00114745,0.00176508
+0.00201336,0.00228854,0.00286781
+0.00170236,0.0019306,0.00260981
+0.00152573,0.00174317,0.0021575
+0.00145109,0.00169016,0.00223732
+0.00136502,0.00146444,0.00193277
+0.00108869,0.00128763,0.00178271
+0.00113844,0.00134933,0.00181068
+0.00234872,0.00249019,0.00352927
+0.00141784,0.00171948,0.00250379
+0.00132311,0.00131081,0.00164424
+0.0013081,0.00149108,0.00189471
+0.00099367,0.00103534,0.00148717
+0.00192438,0.00221438,0.00372713
+0.00175781,0.00191252,0.00265736
+0.00209903,0.00249498,0.00335961
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.24078,2.26825,2.94775,4.52691
+0.743153,1.19738,1.7497,3.21462
+0.742417,1.09992,1.36207,2.5626
+1.10134,1.41462,2.21735,3.19962
+0.814812,1.05947,1.28454,1.6599
+0.879847,1.38703,2.17785,3.92642
+0.564066,0.975265,1.26672,1.97005
+0.92408,1.34908,2.46845,3.76334
+0.753945,1.21869,1.70647,3.3157
+0.500297,0.789131,1.27391,2.43634
+0.689878,1.18232,1.65619,2.62577
+0.643221,1.18443,1.75524,2.52302
+0.674896,0.880067,1.14277,1.92609
+0.436371,0.622732,0.922039,2.04872
+1.0061,2.00726,3.08458,4.69869
+0.761476,1.16389,1.76158,3.14197
+0.662387,0.769613,1.02591,1.72116
+0.964429,1.02839,1.51062,2.24518
+0.897578,0.935827,0.990741,1.70494
+0.961792,1.90938,2.85109,4.83551
+1.17572,1.78018,2.39012,3.73287
+1.12725,1.53737,3.02181,4.64355
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 14</AnalysisName>
+      <SA>1.5</SA>
+      <MAFE>6.3958E-05</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.000106476
+5.16012E-06
+4.68855E-06
+4.34637E-06
+0.000121004
+3.50427E-06
+5.31182E-06
+0.00046739
+5.80383E-06
+4.67215E-06
+4.23741E-06
+4.40262E-06
+4.48376E-06
+5.47945E-06
+0.000363441
+6.02186E-06
+4.9725E-06
+5.28966E-06
+4.51588E-06
+6.58452E-05
+4.91014E-06
+2.6391E-05
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00245684,0.00287102,0.0060226
+0.00167097,0.0019229,0.00273698
+0.00133667,0.00151611,0.00213079
+0.00230946,0.00259655,0.0038181
+0.00199966,0.00217668,0.00346417
+0.00186014,0.0021808,0.00318104
+0.00159704,0.00168545,0.00234452
+0.00218737,0.00293882,0.00670635
+0.00125294,0.00130638,0.00198187
+0.00200762,0.00226458,0.00314886
+0.00157389,0.00183113,0.00266777
+0.00120366,0.00134071,0.00163486
+0.0014566,0.00168318,0.00238717
+0.001169,0.0012974,0.0016975
+0.00300726,0.00349289,0.00624199
+0.00140577,0.00154361,0.00218256
+0.00161538,0.0016187,0.00244952
+0.00181265,0.00198921,0.00275113
+0.00145919,0.00151163,0.00185853
+0.00216058,0.0024346,0.00480541
+0.00181604,0.00218873,0.00293585
+0.00176184,0.00162977,0.00217606
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.78838,2.49376,3.49849,5.64944
+1.05502,1.20323,1.79992,3.44993
+0.625481,1.23298,1.77136,3.06738
+1.33774,2.34505,3.249,4.60565
+1.39683,2.23024,3.30558,5.46841
+1.82539,1.74262,2.55774,4.05347
+0.8241,1.11102,1.65309,3.24964
+1.75453,2.46048,3.59834,6.96338
+0.641147,0.866817,1.33403,2.42638
+1.00765,1.63405,2.21404,4.20951
+0.783616,1.08006,1.64899,3.44191
+0.688069,0.795153,1.04781,2.13959
+0.877972,1.24594,1.42592,2.88905
+0.525955,0.783102,1.12201,1.85739
+1.96878,3.37228,4.89271,6.59269
+0.815224,1.02126,1.32315,2.40076
+0.706728,1.12726,1.79937,2.87697
+1.12527,1.64643,1.98716,3.71765
+1.02946,1.10867,1.29028,2.89034
+1.24506,2.10502,3.71027,6.68688
+1.18879,1.74916,2.33163,4.26874
+0.989345,1.56569,1.89916,2.78255
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00236681,0.00279775,0.00576285
+0.00179771,0.00206648,0.0030002
+0.00137679,0.00166861,0.00228584
+0.00200259,0.00228518,0.00310249
+0.00154195,0.00172009,0.00196009
+0.00208167,0.00236635,0.00327662
+0.00122584,0.00134141,0.00211035
+0.00251199,0.00287004,0.00398837
+0.00195993,0.00216445,0.00290502
+0.00175849,0.00200005,0.00253528
+0.00163107,0.00187187,0.00237629
+0.00158186,0.00165972,0.00213975
+0.00124761,0.00146774,0.00204847
+0.00130909,0.00154369,0.00206912
+0.00282827,0.00296759,0.00421437
+0.0016238,0.00191957,0.002843
+0.00154513,0.00148335,0.00182101
+0.0015116,0.00171014,0.00224585
+0.00111048,0.001163,0.00159279
+0.00236732,0.00252064,0.00483759
+0.00213696,0.00216808,0.00305948
+0.00250236,0.00293834,0.00396468
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>1.55098,2.5871,3.69421,5.78867
+0.928942,1.42432,2.07277,3.83123
+0.928021,1.34369,1.64828,2.93776
+1.37668,1.79674,2.80732,4.11476
+1.01852,1.32726,1.61377,2.01801
+1.09981,1.66387,2.49839,4.88713
+0.705083,1.18416,1.5344,2.51041
+1.1551,1.84273,3.53283,4.7777
+0.942431,1.50687,2.13739,3.89498
+0.62537,0.983507,1.61617,3.10258
+0.862348,1.47367,2.06063,2.82532
+0.804027,1.46258,2.13022,3.05767
+0.84362,1.10616,1.46887,2.39363
+0.545464,0.729271,1.11975,2.46858
+1.25762,2.62699,3.61147,5.76769
+0.951845,1.3983,2.13021,3.71284
+0.827984,0.981443,1.32544,1.73243
+1.20554,1.29841,1.90777,2.75186
+1.12197,1.18574,1.28278,1.87574
+1.20224,2.41458,3.64152,5.79266
+1.46965,2.18958,2.87991,4.41797
+1.40905,1.94014,4.1621,5.50153
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 15</AnalysisName>
+      <SA>2</SA>
+      <MAFE>3.53536E-05</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.000778265
+2.16792E-05
+4.54555E-06
+0.00019733
+0.000419429
+9.1284E-05
+5.13332E-06
+0.00071402
+5.78555E-06
+4.39962E-06
+4.01981E-06
+4.70489E-06
+4.32334E-06
+5.62642E-06
+0.00071106
+6.10462E-06
+4.96772E-06
+5.328E-06
+4.65864E-06
+0.000357635
+0.000159544
+8.8562E-05
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00326266,0.00335563,0.00931221
+0.00220089,0.0025024,0.00372239
+0.0017133,0.00206649,0.00272014
+0.00273332,0.00306365,0.00489203
+0.0024177,0.00272726,0.00536251
+0.00253359,0.00281962,0.00515479
+0.00214756,0.00226517,0.00279497
+0.00275371,0.00361716,0.00900182
+0.00151162,0.00153105,0.00229343
+0.00239495,0.00261134,0.00380634
+0.0018686,0.00206308,0.00305477
+0.00138782,0.00160031,0.00206064
+0.00172132,0.00194368,0.00278199
+0.00140809,0.00161007,0.00217351
+0.00400555,0.00436304,0.009695
+0.00176169,0.00187483,0.00261174
+0.00185092,0.00193291,0.00284788
+0.00228479,0.00243956,0.0033279
+0.00180317,0.00196949,0.00248221
+0.00304418,0.0033693,0.0067462
+0.00233269,0.00263143,0.00489406
+0.00214693,0.00190126,0.00261238
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>2.3845,3.64002,4.66124,7.20893
+1.4067,1.6201,2.57175,4.53205
+0.833975,1.58045,2.27425,4.42849
+1.78366,3.11882,4.522,6.36943
+1.86244,2.88599,4.24902,6.31775
+2.43386,2.4072,3.85682,5.51716
+1.0988,1.62886,2.4155,4.51115
+2.33937,3.45671,4.52531,7.2496
+0.854862,1.19323,1.72637,2.90507
+1.34354,2.06307,2.93966,4.73055
+1.04482,1.3614,2.13406,4.06283
+0.917426,1.00013,1.47061,2.90797
+1.17063,1.63052,1.90522,3.40866
+0.701274,0.973919,1.42724,2.5915
+2.62504,5.19303,6.12005,8.12191
+1.08696,1.26518,1.79424,3.37456
+0.942304,1.43176,2.28424,3.6977
+1.50037,1.96489,2.68656,4.35576
+1.37261,1.54261,1.86433,3.41691
+1.66008,2.49169,4.45793,8.63716
+1.58505,2.38323,3.25112,5.82052
+1.31912,2.08439,2.43226,3.4162
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00309611,0.00371928,0.00822779
+0.0022082,0.00248118,0.00397391
+0.00175638,0.0020002,0.00297049
+0.00261833,0.00291463,0.0042302
+0.00196162,0.0022708,0.00278594
+0.00252795,0.00280406,0.00471194
+0.00148235,0.00162,0.00254775
+0.00269862,0.00333917,0.00587706
+0.00234935,0.00250153,0.00342086
+0.00211223,0.00237832,0.00330451
+0.00206296,0.00215073,0.00295784
+0.0019141,0.00193456,0.0024066
+0.00150032,0.00169442,0.00235995
+0.00159937,0.00185634,0.00246663
+0.0035239,0.00350564,0.00507103
+0.00195373,0.00210307,0.00337609
+0.00189105,0.0017959,0.00215499
+0.00182936,0.00205683,0.00281843
+0.00134293,0.0014237,0.00179347
+0.00299927,0.00306122,0.00717588
+0.00272528,0.00266714,0.00363009
+0.00280929,0.00338777,0.00511478
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>2.06797,3.49842,4.8519,7.07248
+1.23859,1.79748,2.63056,4.74932
+1.23736,1.75893,2.12877,4.02108
+1.83557,2.37324,3.55567,5.53284
+1.35802,1.78511,2.17829,2.82815
+1.46641,2.07301,3.04379,6.02042
+0.94011,1.46532,1.95073,3.21732
+1.54013,2.26676,3.6055,6.74548
+1.25657,2.01061,2.69459,4.65789
+0.833827,1.37072,2.17492,4.41061
+1.1498,1.93407,2.6741,3.66898
+1.07204,1.91421,2.75854,3.87175
+1.12482,1.47367,1.99178,3.00736
+0.727285,0.928139,1.5919,3.04731
+1.67683,3.40563,4.74582,7.05014
+1.26912,1.79834,2.70649,4.75376
+1.10398,1.32915,1.81344,2.39107
+1.60738,1.75469,2.58223,3.73324
+1.49596,1.60221,1.77335,2.39524
+1.60299,3.07445,5.064,7.11988
+1.95954,2.68135,3.36431,5.88033
+1.87874,2.4659,4.34593,6.26593
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 16</AnalysisName>
+      <SA>3</SA>
+      <MAFE>1.46789E-05</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.000654469
+0.000482252
+0.000120711
+0.000471248
+0.00254109
+0.000351008
+0.000154911
+0.000754591
+0.000101986
+0.000127475
+1.46933E-05
+5.75283E-06
+3.08315E-05
+5.72524E-06
+0.000991266
+8.90534E-05
+5.72521E-06
+0.000209531
+4.92444E-06
+0.000450457
+0.000625402
+1.82678E-05
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00547965,0.00565991,0.0149834
+0.00321485,0.00368752,0.00650706
+0.00230875,0.00284149,0.00494391
+0.00352261,0.00392173,0.00880084
+0.00456323,0.00424414,0.011822
+0.0044739,0.00501526,0.008076
+0.00269694,0.00292246,0.00504878
+0.00894781,0.00601604,0.0211209
+0.00192466,0.00191592,0.00261914
+0.00314414,0.00318915,0.00498261
+0.00246611,0.00245236,0.00356298
+0.00191394,0.00214241,0.00290953
+0.00200325,0.00221921,0.00323437
+0.0018613,0.0022178,0.00309302
+0.00548473,0.00662089,0.0160969
+0.00230455,0.00241929,0.00309256
+0.00217535,0.00238239,0.00332574
+0.00309374,0.00300156,0.00447065
+0.00247568,0.00261598,0.00368897
+0.0041212,0.00462103,0.00957062
+0.00347842,0.00337642,0.00714224
+0.00288131,0.00245318,0.00362923
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>3.57675,5.88103,7.28743,8.09311
+2.11004,2.57382,4.0018,6.21829
+1.25096,2.25401,3.29678,6.57459
+2.67548,5.25282,7.10081,8.29185
+2.79365,9.89976,14.5768,12.33
+3.6508,3.96346,6.75225,7.12301
+1.6482,2.42146,3.56453,6.29558
+3.45251,10.8881,13.181,9.96399
+1.28229,1.80027,2.58347,4.00418
+2.0153,2.81476,4.21168,6.06427
+1.56723,2.31654,3.16139,5.06762
+1.37614,1.46171,2.26971,4.18032
+1.75594,2.44003,2.72405,4.28468
+1.05191,1.46668,2.2319,3.9335
+3.86225,7.5981,9.79107,8.79098
+1.63045,1.92322,2.57334,4.14101
+1.41346,1.69278,2.91443,4.85559
+2.25054,2.74696,3.9236,5.43984
+2.05892,2.42945,3.17559,4.47109
+2.49011,3.69806,5.77937,7.90345
+2.37757,3.75574,4.99469,7.04606
+1.97869,2.93612,3.47397,4.87813
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00680893,0.00436834,0.0142152
+0.00298375,0.00337977,0.00575717
+0.0023893,0.00274632,0.00514715
+0.00362782,0.00368459,0.00574224
+0.00258152,0.00291491,0.00428327
+0.0034233,0.00370361,0.00925538
+0.00190625,0.00208496,0.00346182
+0.00331031,0.00328948,0.00868621
+0.00301782,0.00304052,0.0046323
+0.00259156,0.00294622,0.0051817
+0.00299352,0.0028424,0.0042389
+0.00252999,0.00246471,0.0030258
+0.00194615,0.00210318,0.0027952
+0.00212043,0.00234557,0.00316207
+0.00483433,0.00481787,0.00845888
+0.00258422,0.00252397,0.0046474
+0.00251889,0.00241566,0.00306285
+0.00213485,0.00244533,0.00455238
+0.00187199,0.00202899,0.00231343
+0.00416127,0.00405989,0.0104204
+0.00434671,0.0036813,0.00580121
+0.00384041,0.00339215,0.00605744
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>3.10196,10.8999,13.6706,11.1748
+1.85788,2.56951,4.08028,6.44432
+1.85604,2.6382,3.14507,5.9266
+2.75334,4.0437,4.95759,7.16068
+2.03703,2.70546,3.26023,3.68903
+2.19961,3.26708,4.62137,7.02351
+1.41016,1.79425,2.40609,4.56864
+2.3102,6.74795,9.48776,11.2033
+1.88486,2.78913,3.99147,5.61563
+1.25074,2.08748,3.35556,6.12602
+1.7247,2.93313,3.9931,4.97548
+1.60805,2.77573,3.94168,5.30267
+1.68724,2.17227,2.92299,4.22699
+1.09093,1.55996,2.50087,4.00683
+2.51524,4.50619,6.14286,7.08657
+1.90369,2.40158,3.29568,5.59978
+1.65596,2.0111,2.75664,3.67001
+2.41107,2.65365,3.85372,5.34865
+2.24394,2.43878,2.76893,3.8121
+2.30562,3.66773,5.9294,7.81894
+2.93931,4.26479,4.93844,7.05476
+2.81811,3.70543,4.49416,7.32614
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 17</AnalysisName>
+      <SA>4</SA>
+      <MAFE>7.61118E-06</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.00122918
+0.00117024
+0.000386237
+0.000435849
+0.000575905
+0.000438326
+0.000261018
+0.000444134
+3.37707E-05
+0.000210066
+0.000259639
+0.000380985
+0.000217665
+5.68169E-06
+0.000703183
+0.000368276
+0.000345855
+0.000670974
+0.000156436
+0.000817925
+0.000698584
+0.000400083
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00765846,0.00987448,0.0188051
+0.00473938,0.00524051,0.0100816
+0.00265212,0.00371632,0.00785288
+0.00669009,0.00684317,0.0172373
+0.00507941,0.00809459,0.0140348
+0.00510826,0.00646456,0.0104584
+0.00286074,0.00324192,0.00681564
+0.00735006,0.00650054,0.0210714
+0.00235817,0.00239332,0.00354148
+0.00406802,0.00388147,0.00625444
+0.00253773,0.00300707,0.00513057
+0.0024219,0.00268896,0.00378604
+0.00240765,0.00271668,0.00429218
+0.00236726,0.00277389,0.00467989
+0.00727064,0.00956566,0.0238462
+0.00276544,0.00278886,0.00499724
+0.00267415,0.00295777,0.00520709
+0.00414511,0.00345147,0.00538894
+0.00336525,0.00311082,0.00497017
+0.00509118,0.00584723,0.0134124
+0.00462336,0.00470355,0.00972637
+0.00376154,0.00296614,0.00512799
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>4.59644,8.49986,8.26511,9.0618
+2.81338,4.10108,5.51793,6.64023
+1.66795,2.83886,3.99401,7.16163
+3.53565,8.24437,9.45536,11.3476
+3.72487,5.6027,6.68959,8.45458
+4.86773,5.27511,6.42564,7.70203
+2.1976,3.20495,4.57872,7.14749
+4.60333,8.79279,11.9638,10.3507
+1.70972,2.39527,3.25435,5.27488
+2.68706,3.84835,4.73163,6.63983
+2.08964,2.90394,4.12027,6.44719
+1.83485,1.92544,3.09901,4.961
+2.34126,3.22347,3.69714,4.75855
+1.40255,1.88777,3.02042,4.80958
+5.23097,9.31987,15.9035,8.88849
+2.17393,2.61036,3.76958,4.84948
+1.88461,2.35003,3.70498,5.81746
+3.00072,3.76703,4.83364,6.48409
+2.74522,3.04821,4.23922,5.79732
+3.31258,7.28746,9.40241,9.19799
+3.17009,4.68336,5.70568,7.05596
+2.63826,3.75034,4.24835,6.08231
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00760829,0.00600495,0.016833
+0.00404143,0.00420218,0.00884602
+0.00312825,0.00304401,0.00852607
+0.00594709,0.0067282,0.011716
+0.00337834,0.00397133,0.00572981
+0.0039619,0.00484965,0.0121363
+0.0023756,0.00264251,0.00451835
+0.00422124,0.00367922,0.0112495
+0.00392667,0.0035983,0.00557088
+0.00340151,0.00393149,0.0062921
+0.0037873,0.00368882,0.00574718
+0.00329373,0.00291601,0.00403501
+0.00248478,0.00239667,0.00297968
+0.00245074,0.00272632,0.00382379
+0.00633152,0.00652415,0.0114436
+0.00365104,0.00300163,0.00653133
+0.00318549,0.00288443,0.00439352
+0.00240091,0.00269806,0.00707629
+0.00250114,0.00263782,0.00330417
+0.00568882,0.00520794,0.0135826
+0.00604043,0.00547665,0.00821542
+0.00597209,0.00485733,0.00880666
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>3.92324,6.80462,9.46539,8.41939
+2.47718,3.55739,4.89741,7.76394
+2.47472,3.20646,4.35954,7.09719
+3.68572,5.2952,6.99901,8.50689
+2.71604,3.63178,4.16277,5.24947
+2.93282,4.27535,5.79241,7.72167
+1.88022,2.24072,3.09829,5.47555
+3.08027,5.9902,9.73628,11.8875
+2.51315,3.17984,4.6557,6.61116
+1.66766,2.72636,4.44986,6.40098
+2.29959,3.2318,4.63671,6.4581
+2.14407,4.09186,5.14202,6.46994
+2.24965,2.87464,3.81138,5.30945
+1.45457,1.98652,2.91618,4.51592
+3.35366,5.13103,6.49941,7.86436
+2.53826,3.61257,4.33403,6.97917
+2.20796,2.48245,3.29889,4.80964
+3.21476,3.5146,4.84157,6.26339
+2.99193,3.28064,3.76979,5.18359
+3.14007,10.6251,12.5517,10.2456
+3.89476,5.54439,6.61855,7.25013
+3.75748,5.05157,5.72038,6.65046
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>Intensity 18</AnalysisName>
+      <SA>5</SA>
+      <MAFE>4.48111E-06</MAFE>
+      <SABeta>0.4</SABeta>
+      <ModelingDispersion>0</ModelingDispersion>
+      <NumRealizations>100</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.000907506
+0.00073822
+0.000385805
+0.00197086
+0.000475484
+0.000424887
+0.000231671
+0.000880506
+0.000205804
+0.000853328
+0.000389705
+0.000597428
+0.000410189
+0.000148467
+0.000699025
+0.000723282
+0.000915519
+0.000594009
+0.000174887
+0.000566705
+0.00180879
+0.000313919
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.0119841,0.0130141,0.0250932
+0.00617678,0.00703335,0.0129508
+0.00306849,0.00442306,0.0116686
+0.0113994,0.013428,0.0187597
+0.00654485,0.013062,0.0200267
+0.00806509,0.0109185,0.0149599
+0.0033387,0.00347464,0.00910651
+0.00834064,0.012119,0.0227223
+0.00282316,0.00298193,0.00592845
+0.00494694,0.0046949,0.0083872
+0.00322717,0.00356106,0.00715732
+0.0029701,0.00338945,0.00533312
+0.00297675,0.00321887,0.00639854
+0.00283542,0.00341749,0.00643714
+0.00993303,0.0137789,0.0298621
+0.00360011,0.00362779,0.00846224
+0.00298415,0.00358019,0.00700543
+0.00543885,0.00411927,0.00761628
+0.00407412,0.00357286,0.00518507
+0.00759233,0.00705778,0.0158233
+0.00576398,0.00747575,0.0120534
+0.00488985,0.00365035,0.00774842
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>5.84811,10.7856,14.4865,10.8292
+3.51673,5.04881,5.99845,7.34978
+2.08493,3.42942,4.78578,7.06276
+4.43935,10.3944,10.0708,9.49214
+4.65609,7.64614,10.3867,9.27114
+6.08466,7.10219,8.43094,8.16445
+2.747,3.91139,5.57583,7.58361
+5.75597,11.3064,13.4959,10.594
+2.13716,3.58744,4.3811,6.63373
+3.35884,4.65661,5.44845,7.8232
+2.61205,3.75133,5.29799,7.12856
+2.29357,2.47048,4.05509,6.2308
+2.92657,3.9344,4.65615,5.24187
+1.75318,2.24583,3.58319,5.62638
+6.5626,11.3741,10.6939,9.60796
+2.71741,3.57116,5.03766,5.75754
+2.35576,2.6107,4.13062,7.14048
+3.75091,5.57849,7.48083,7.84011
+3.43153,4.31006,5.63258,6.64775
+4.12651,9.14336,10.1361,11.6489
+3.96262,5.79674,6.08349,7.60715
+3.29782,4.66209,5.83371,6.87748
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>22</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>3</NumEntries>
+          <EDPTypeName>Story Drift Ratio</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Story Drift Ratio</EDPGroupName>
+          <ArrayValues>0.00884845,0.00852583,0.0206105
+0.00519237,0.00495609,0.0108594
+0.00428051,0.00398669,0.0123182
+0.00733164,0.00956636,0.0203267
+0.00456933,0.00555918,0.00682164
+0.00493619,0.00652931,0.0138868
+0.00310791,0.00304149,0.00551826
+0.00619327,0.00545925,0.0159489
+0.00492128,0.00387992,0.00645691
+0.0040718,0.00459686,0.00851377
+0.004747,0.00478913,0.00767896
+0.00451036,0.00446648,0.00813396
+0.00300958,0.0027776,0.00445626
+0.00270028,0.00299038,0.00449007
+0.00823331,0.00873704,0.0147615
+0.0056146,0.00449618,0.00770416
+0.00400913,0.00332959,0.00477178
+0.00356318,0.00392107,0.00896098
+0.00326336,0.00313043,0.00543953
+0.00727925,0.00745367,0.0156257
+0.00774871,0.0088878,0.0127269
+0.00960707,0.0116981,0.0156155
+</ArrayValues>
+        </EDPArray>
+        <EDPArray>
+          <NumEQs>22</NumEQs>
+          <NumEntries>4</NumEntries>
+          <EDPTypeName>Acceleration</EDPTypeName>
+          <DispersionValue>0</DispersionValue>
+          <EDPGroupName>Acceleration</EDPGroupName>
+          <ArrayValues>4.90932,8.52762,10.9383,9.66178
+3.09647,7.45911,10.5822,9.29313
+3.0934,5.18656,5.82715,8.2658
+4.60715,7.7458,9.30478,8.73275
+3.39506,4.48391,6.71008,6.54204
+3.65667,5.31121,7.52007,8.23417
+2.35028,2.86277,3.82714,6.47731
+3.85138,6.08388,7.68866,9.12384
+3.12962,4.39799,5.11867,7.68478
+2.08457,3.25347,4.71533,7.12202
+2.8745,4.45903,5.49394,6.96729
+2.68009,5.58585,6.39877,7.6388
+2.81207,3.56097,4.58452,5.886
+1.81822,2.46865,3.02462,4.94313
+4.19207,7.42598,7.53875,8.15951
+3.17281,6.79812,8.45823,8.51888
+2.75995,3.1773,3.36426,5.88343
+4.01845,4.46417,5.57226,6.76011
+3.73991,4.13702,4.91258,5.70453
+3.76032,7.82455,10.6903,8.55954
+4.86845,6.3386,7.51362,7.93823
+4.67101,8.63926,13.7529,10.7914
+</ArrayValues>
+        </EDPArray>
+      </EDP>
+    </Analysis>
+  </AnalysisCases>
+</Project>

@@ -1,6 +1,9 @@
 # Spatial correlation of building performances for regional resilience assessment
 
-##  Files
+## Use
+Run Main_i_*.m in order in Matlab
+
+##  Layout
 
  - **3rd Party**: other dependent programs
  - **Figures**: output figures for displaying results

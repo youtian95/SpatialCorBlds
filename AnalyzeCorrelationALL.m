@@ -63,7 +63,7 @@ Samples_complete = Samples_intersec;
 % 仅适用部分数据
 if nargin>5
     [row,col] = find(PartOfRSN'==RSN_intersec);
-    assert(all(row'==(1:numel(PartOfRSN))));
+    assert(all(sort(row)'==(1:numel(PartOfRSN))));
     RSN_intersec = RSN_complete(col);
     Samples_intersec = Samples_complete(:,col);
 end

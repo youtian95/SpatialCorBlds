@@ -6,7 +6,9 @@ function Plot_rho_tile(CovFunMat_)
 ColorPalette = [0 0.4470 0.7410; ...        % 蓝
     0.8500 0.3250 0.0980; ...               % 橙色
     0.4940 0.1840 0.5560; ...               % 紫
-    0.4660 0.6740 0.1880];                  % 绿
+    0.4660 0.6740 0.1880; ...               % 绿
+    0.9290 0.6940 0.1250; ...               % 黄
+    0.6350 0.0780 0.1840];                  % 红
 
 ifcomparison = false;
 if size(CovFunMat_,1)==1 && size(CovFunMat_,2)>1
@@ -67,7 +69,8 @@ for i=1:size(CovFunMat,1)
     end
 end
 
-legend('All (128)','Set 1 (20)','Set 2 (20)','Set 3 (20)','Location','northeastoutside');
+legend('All (128)','Set 1 (20)','Set 2 (20)','Set 3 (20)','Set 4 (20)','Set 5 (20)', ...
+    'Location','northeastoutside');
 
 t.Units = "centimeters";
 t.Position = [5 5 8 7].*(12/8);

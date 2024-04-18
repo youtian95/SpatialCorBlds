@@ -141,7 +141,11 @@ classdef GPR_Stationary_SLFM < handle
             % 似然函数
             % （备注：Kf\y有时候由于误差算不出来，导致结果为Nan）
             % a. 计算logdetKf的几种方法
-            logdetKf = logdet(Kf);
+            if ~matlab.addons.isAddonEnabled("Safe computation of logarithm-determinat of large matrix")
+                % 必须安装此扩展
+                error("This Add-On is required: Safe computation of logarithm-determinat of large matrix");
+            end
+            logdetKf = logdet(Kf); 
             % logdetKf = log(abs(prod(d))); % 特征值的乘积等于行列式
             % b. 计算f的几种方法
             f = - 0.5.*y'*(Kf\y) - 0.5*logdetKf - numel(y)/2*log(2*pi);

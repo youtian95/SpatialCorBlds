@@ -7,11 +7,19 @@ function Plot_StationMap(EQDataStruct, EQName, RSN_Filter, SelectRSN)
 % RSN_Filter - 逻辑向量，可选
 % SelectRSN - 选中的RSN，行向量/矩阵，可选
 
+ColorPallete = [0.8500 0.3250 0.0980; ...
+    0.4940 0.1840 0.5560; ...
+    0.4660 0.6740 0.1880; ...
+    0.9290 0.6940 0.1250; ...
+    0.6350 0.0780 0.1840];
+
 if nargin<3
     % 排除无地震动数据的, 只使用部分满足要求的台站地震动
     RSN_Filter = [EQDataStruct.AccHistoryFileExist] ...
         & ([EQDataStruct.PGA_g_]>=0.05); % PGA大于0.05g
 end
+
+CircleSizelist = 20:30:140;
 
 % 底图信息
 if strcmp(EQName,'Northridge')
@@ -47,13 +55,12 @@ if nargin>3
         s = [s,s1];
         s1.MarkerFaceColor = 'none';
         s1.Marker = 'o';
-        s1.LineWidth = 1.5;
+        s1.LineWidth = 1;
         hLegend = findobj(gcf, 'Type', 'Legend');
         hLegend.String{2+i_part} = ['Set ',num2str(i_part),' (',num2str(size(SelectRSN,2)),')'];
+        s(i_part).SizeData = CircleSizelist(i_part);
+        s(i_part).MarkerEdgeColor = ColorPallete(i_part,:);
     end
-    s(1).SizeData = 50; s(1).MarkerEdgeColor = [0.8500 0.3250 0.0980];
-    s(2).SizeData = 100; s(2).MarkerEdgeColor = [0.4940 0.1840 0.5560];
-    s(3).SizeData = 30; s(3).MarkerEdgeColor = [0.4660 0.6740 0.1880];
 end
 
 
@@ -63,5 +70,7 @@ if strcmp(EQName,'Northridge')
     ylim([33.5,35]);
 elseif strcmp(EQName,'Chi-Chi')
 end
+
+set(gca,'units','centimeters','position',[5 5 8 6].*(16/8));
 
 end

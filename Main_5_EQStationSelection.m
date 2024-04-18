@@ -52,9 +52,17 @@ RSN2 = RSNAll(RSN2_ind);
 RSN3_ind = FindStationSet_Uniform(DistMat,N_EQ);
 RSN3 = RSNAll(RSN3_ind);
 
+% 方法4：平面空间中简单随机抽样
+RSN4_ind = FindStationSet_SpatialSampling(EQDataStruct,RSNAll,N_EQ,'Simple');
+RSN4 = RSNAll(RSN4_ind);
+
+% 方法5：Halton序列实现平面空间中均匀伪随机抽样
+RSN5_ind = FindStationSet_SpatialSampling(EQDataStruct,RSNAll,N_EQ,'Halton');
+RSN5 = RSNAll(RSN5_ind);
+
 
 %% 台站选择绘图
-Plot_StationMap(EQDataStruct, EQName, RSN_Filter, [RSN1;RSN2;RSN3]);
+Plot_StationMap(EQDataStruct, EQName, RSN_Filter, [RSN1;RSN2;RSN3;RSN4;RSN5]);
 
 %% 相关性分析
 warning('off','all');
@@ -80,12 +88,18 @@ Sa_Range = [0,inf];
 % 集合RSN3：距离的分布尽量均匀
 [CovFunMat3,LogLikelihood3] = AnalyzeCorrelationALL(SP_type,Sa_Range, ...
     Capacity2D,EQDataStruct,ScenarioStruct,RSN3);
+% 集合RSN4：简单随机抽样
+[CovFunMat4,LogLikelihood4] = AnalyzeCorrelationALL(SP_type,Sa_Range, ...
+    Capacity2D,EQDataStruct,ScenarioStruct,RSN4);
+% 集合RSN5：Halton序列随机抽样
+[CovFunMat5,LogLikelihood5] = AnalyzeCorrelationALL(SP_type,Sa_Range, ...
+    Capacity2D,EQDataStruct,ScenarioStruct,RSN5);
 
 %% 绘图：相关性
 if ~exist('CovFunMat1','var')
     load(['CovFunMat_Partial',num2str(N_EQ),'_IDR.mat']);
 end
-Plot_rho_tile({CovFunMat0,CovFunMat1,CovFunMat2,CovFunMat3});
+Plot_rho_tile({CovFunMat0,CovFunMat1,CovFunMat2,CovFunMat3,CovFunMat4,CovFunMat5});
 disp('LogLikelihood:');
-disp([LogLikelihood0,LogLikelihood1,LogLikelihood2,LogLikelihood3]);
+disp([LogLikelihood0,LogLikelihood1,LogLikelihood2,LogLikelihood3,LogLikelihood4,LogLikelihood5]);
 

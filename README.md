@@ -1,5 +1,8 @@
 # Spatial correlation of building performances for regional resilience assessment
 
+Tian You, Solomon Tesfamariam. Spatial correlation in building seismic performance for regional resilience assessment. Resilient Cities and Structures, 2024, 3(2): 57-65.
+
+
 ## Use
 Run Main_i_*.m in order in Matlab
 
